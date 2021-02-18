@@ -1,0 +1,14 @@
+apiVersion: skaffold/v1beta13
+build:
+  artifacts:
+  - context: .
+    docker:
+      dockerfile: Dockerfile
+    image: gcr.io/gcp-ml-172005/tfx-pipeline
+  local:
+    push: true
+    useDockerCLI: true
+  tagPolicy:
+    envTemplate:
+      template: latest
+kind: Config
