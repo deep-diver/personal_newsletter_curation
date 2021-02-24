@@ -15,7 +15,7 @@ The curation is a simple process. It will go through each post and classify them
 ## Architecture
 This project is designed to show how to build End-to-End Machine Learning pipeline on Google Cloud Platform. 
 
-![](./assets/image/architecture.png)
+![](./assets/image/architecture_v2.png)
 
 Below shows the products consisting of the whole pipeline and their roles in this project.
 - **Cloud Scheduler**
