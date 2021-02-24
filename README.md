@@ -17,17 +17,9 @@ This project is designed to show how to build End-to-End Machine Learning pipeli
 
 ![](./assets/image/architecture_v2.png)
 
-Below shows the products consisting of the whole pipeline and their roles in this project.
-- **Cloud Scheduler**
-  - There are two periodic works. One for collecting new data for updating the deployed/trained latest model. The other one is for publishing a newsletter. It collects data from SNS and push the data to go through the data validation/transformation pipeline. When the data is ready, it will be fed into the existing model to get predictions. Based on the returned prediction, newsletter will be constructed and published.
-- **BigQuery**
-  - This is mainly for storing historical data that has been collected periodically.
-- **Dataflow**
-  - Dataflow is used for Data Extraction/Validation, Data Transformation, and Model Evaluation purposes. 
-- **Cloud Storage**
-  - There are a bunch of intermediate results from Data Extraction/Validation, Data Transformation, Model Training, and Model Analysis. Those intermediate results are stored in Cloud Storage service.
-- **AI Platform**
-  - AI Platform is used for training and serving a model. The newly trained model is stored in Cloud Storage service.
+## TFX pipeline on AI Platform Pipeline(kubeflow)
+
+![](assets/image/kubeflow-run.jpg)
 
 ## Todo
 - [ ] Collect & Label text data from Twitter / Facebook
