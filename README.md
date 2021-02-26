@@ -23,6 +23,6 @@ This project is designed to show how to build End-to-End Machine Learning pipeli
 
 ## Todo
 - [ ] Collect & Label text data from Twitter / Facebook
-- [ ] Train & Evaludate an intial model 
-- [ ] Build a pipeline shown in the Archtecture
+- [X] Train & Evaludate an intial model 
+- [X] Build a pipeline shown in the Archtecture
 - [ ] Testing
