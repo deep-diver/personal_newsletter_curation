@@ -185,3 +185,544 @@
 @Belma Ibrahimovic Awesome content, as always. Highly recommend! Thanks @seb_ruder  QA—how did we get here? , Adapting to time ⏳, Data detectives  by  via @revue|0
 @hardmaru The state-of-the-art for matrix multiplication is now O(n^2.3728596) |0
 @Pieter Abbeel Very excited to share the launch of my new podcast, The Robot Brains. The first episode was just released. My first guest is brilliant AI researcher, educator, and Director of AI and Autopilot Vision at Tesla @karpathy!  |0
+@Towards Data Science How to Fine-Tune BERT Transformer with spaCy 3 by Walid Amamou |0
+@KDnuggets Top YouTube Machine Learning Channels - KDnuggets  |0
+@Data Elixir Product Recommendation Engine with Collaborative Filtering via Pinecone |0
+@Federica Fragapane Today is #WorldSleepDay! On this occasion last year I launched a project I care a lot about  #dataviz on @Google searches for the interpretation of dreams designed for @GoogleTrends! Code by @paolocorti_, in collaboration with @AlbertoCairo and @smfrogers |0
+@Yann LeCun @pabbeel has a new podcast \"The Robot Brains\" in which he interviews various people about AI and robotics. |0
+@elvis  Inside Transformers (explained and animated)!  full video:  |0
+@Kirk Borne Step-by-step guide to building a Data Catalog:  ————— #abdsc #BigData #DataScience #AnalyticsStrategy #DataStrategy #Metadata #DataCatalog #MachineLearning #AI |0
+@Cédric Scherer The repository now includes the full list of links.   Slides:   Recording:   Tutorial:   Codes:  #rstats #ggplot2 #dataviz #outlier2021 |0
+@DAGsHub [Guide] How to compare the leading experiment tracking tools for #machine learning - pros, cons and more #MachineLearning #DataScience  |0
+@Aran Komatsuzaki Quality at a Glance: An Audit of Web-Crawled Multilingual Datasets By manually auditing the quality of 205 language-specific corpora, they find that lower-resource corpora have systematic issues in quality.  |0
+@hardmaru A rapid and efficient learning rule for biological neural circuits Their biologically plausible “Dendritic Gated Networks” more data efficient than conventional artificial networks and are highly resistant to forgetting. From DeepMind / UCL / Imperial   |0
+@The New Stack How eBay Leverages Kubernetes, Helm Charts and Jenkins Pipelines to Deliver High-Quality Software  @ebaytech #spon #Kubernetes|0
+@Liliana Bounegru We're excited to announce that \"The Data Journalism Handbook: Towards a Critical Data Practice\" is published today with @AmsterdamUPress:  Here's a thread about the book.  #ddj #ddjbook #dataviz #openaccess |0
+@James Lamb #LightGBM 3.2.0 is now available! * distributed learning with @dask_dev * trees with linear models at the leaves * aarch64 wheels * several efficiency improvements Thanks to the 30+ contributors who put time and energy into this. |0
+@Jerome Pesenti Open source, @PyTorch, @PyTorchLightnin, self-supervision, and models from @facebookai and other labs, these are a few of my favorite things... Good luck Lightly! |0
+@AK Meta-DETR: Few-Shot Object Detection via Unified Image-Level Meta-Learning pdf:  abs:  |0
+@LibreCV [Discussion] FreeLabel: A Publicly Available Annotation Tool based on Freehand Traces. @amy_tabb   #computervision #opensource #machinelearning #AI |0
+@Andrew Carr What was the difference between my Deepmind / FAIR interviews and my OpenAI interview? ... Leetcode ... I didn't want to do it, but I finally buckled down and did the \"75 Leetcode\". Huge difference in confidence and results.|0
+@Aran Komatsuzaki We've released the weights (1.3B and 2.7B) of our replication of GPT-3  Using the updated Colab notebook in the repo you should be able to finetune the models on your own data as well as run inference.  |0
+@Petr Stribny It turns out that streaming video is easy with #python. Here is the code with #FastAPI (but the technique is easily transferable to other fws) |0
+@Jonathan Carter I finally got around to creating my learning-oriented extension pack for @code:  I built CodeTour, CodeSwing, GistPad and GitDoc as individually valuable extensions (unix FTW!), but collectively, they're part of a much larger goal: making development fun|0
+@Hamel Husain  The data science team at GitHub is hiring  apply here if interested    Remote friendly Very diverse team @gregce10 is the hiring manager - but might be easier to find him on Linkedin |0
+@David Bisset CodeTour: VS Code (@code) extension from Microsoft that allows you to record and playback guided tours of codebases, directly within the editor. Cool!   |0
+@Bill Gates In this video, I answered some really good questions, including one about two really important numbers. Come ask me some questions of your own on @reddit at 11:15:  |0
+@Morgan McGuire  This @huggingface tip to prevent colab from disconnecting  ` function ConnectButton(){   console.log(\"Connect pushed\");   document.querySelector(\"#top-toolbar &gt; colab-connect-button\").shadowRoot.querySelector(\"#connect\").click() } setInterval(ConnectButton,60000); ` |0
+@Jon Barron mediapy: a library for reading, writing, and showing images and videos inside colab notebooks. Extremely helpful.  |0
+@Figma Plugins  Fig3D #figmaplugin Instantly convert your shapes, icons, logos and UI designs to 3D models and get a good render.   @figmadesign |0
+@ Stefan Natter &  Building B2B/2C Products Have you seen this new feature in the latest Chrome version? Nice! |0
+@Data Sketches The BIG NEWS IS HERE Data Sketches is turning into A BOOK!! Pre-orders available now @   We're also running a subtitle competition until 12/3 11:59PM PST→ Winner gets their subtitle on the cover &amp; a signed copy of our book! |0
+@Sergios Karagiannakos I finally found the time to get my hands dirty with JAX. And it was great. In this article, I explain how to develop and train the vanilla Transformer using JAX, Haiku and Optax. #MachineLearning #DeepLearning #AI #JAX #Python #Transformers  |0
+@Joe Previte Script Kit - Daily Note script  1. Opens @simplenoteapp 2. Creates a new file/note 3. Names it today's date yyyy-MM-dd 4. Writes day of the week 5. Writes 3 lines for gratitude Thanks @johnlindquist for making this fun!  |0
+@Viacheslav Kovalevskyi A100 GPUs are now GA on Google Cloud: |0
+@Google AI Developing efficient algorithms for distributed computation on very large graphs is an ongoing challenge. Check out a new model that augments the capabilities of #MapReduce, providing a way to solve distributed graph algorithms in fewer computation rounds. |0
+@TensorFlow  Wish TensorBoard would load your data 100–400× faster?  Try the experimental --load_fast=true flag in our latest nightly release, and send feedback!  Details ↓ |0
+@Amit Chaudhary Found this special notebook mentioned in a Reddit comment (0x00groot).  It gives you a Tesla-P100 GPU and high RAM (25GB) every time on Colab. Make a copy of it and use it.  |0
+@Novetta @TheZachMueller &amp; Andrew Chang, in Novetta's ML Center of Excellence, took a look at 3 methodologies for automated learning rate finding. (Spoiler alert: one of them is ours and it performs quite well) Check it out on the blog:  #deeplearning|0
+@Aran Komatsuzaki You Only Look One-level Feature Proposes YOLOF, which achieves matches RetinaNet while being 2.5x faster and 44.3 mAP on COCO with image size of 608 × 608 running at 60 fps on 2080Ti, which is 13% faster than YOLOv4. abs:  code:  |0
+@DeepAI Everything you need to know about Generative Adversarial Network  #DeepLearning #GenerativeAdversarialNetwork|0
+@Santiago Applied Machine Learning. Cornell Tech, 2020. 100% Free. 80 videos. Here is the full playlist:  |0
+@Ben Barbersmith  My evening didn't go as planned.  I worked on my company accounts, sent some pitches for Observant, &amp; tweaked the hero for SQL for Humans. How's the latest iteration?  (If you want it, sign up here:   |0
+@Towards Data Science Building a Deep Learning Image Captioning Model on Azure by Amanda Wong |0
+@Josh W. Comeau I also posted a bunch more info on Indie Hackers:  Feel free to ask questions there! Especially ones that require long answers / would be annoying to answer on Twitter |0
+@Aran Komatsuzaki Is it Enough to Optimize CNN Architectures on ImageNet? The relationship between architecture and performance varies wildly, depending on the datasets. For some of them the performance correlation with ImageNet is even negative.  |0
+@Javier Ideami Towards the end of deep learning and the beginning of AGI, inspired by Numenta &amp; Jeff Hawkins research  #DeepLearning #MachineLearning #DataScientist #Neurosciences #ArtificialIntelligence #InteligenciaArtificial #datascience #NeuralNetworks @Numenta|0
+@Towards Data Science One of our most popular posts so far in 20201: @MaartenGr illustrated guide to 9 distance measures in data science. |0
+@Tomasz Malisiewicz Back to the Feature: Learning Robust Camera Localization from Pixels to Pose This paper is based on the alignment of deep multiscale features and combines the best of deep learning with multiview geometry. Checkout those learned heatmaps!  #computervision |0
+@Towards Data Science .@burnpiro presents two measures, infidelity and sensitivity, that can be used to quantitatively measure and compare different XAI methods. |0
+@ZenML 12 weeks ago, we launched ZenML. We decided to #opensource and focus on building a developer community-solving #MLOps. It has been a rollercoaster ride, but the feedback has been nothing short of amazing. We just broke the 1000 stars! Thank you, @mlopscommunity and @AiInfra |0
+@Andrew Chang Great work from @TheZachMueller that really expands and dives into the latest methods for automated learning rate suggestions including our approach here:  |0
+@AK Approximating How Single Head Attention Learns pdf:  abs:  |0
+@Google AI The new Sleep Sensing feature in Nest Hub enables users to better understand their nighttime wellness by leveraging Soli miniature radar sensors, combined with novel algorithms and on-device data processing. Learn more →  |0
+@AK Modular Interactive Video Object Segmentation: Interaction-to-Mask, Propagation and Difference-Aware Fusion pdf:  abs:  project page:  |0
+@Chip Huyen We’ve been incredibly impressed by what our students have been able to build over the last 10 weeks. Our demo day will be open to the public 2pm - 4pm, tomorrow Wed Mar 17 (PT). Come join us and give us feedback!  |0
+@Artsiom Sanakoyeu You don't need EfficientNets. Simple tricks make ResNets better and faster than EfficientNets  Revisiting ResNets: Improved Training and Scaling Strategies  |0
+@Kerem Turgutlu Exactly 100 commits and 2 months later, new v.1.0.1 of self-supervised package is out. In short, \"A Fast, Performant and Accessible Library for Training SOTA Self Supervised Algorithms!\" using @fastdotai , timm (@wightmanr) and @PyTorch . Release Notes: |0
+@arXiv Daily Thumbnail: A Novel Data Augmentation for Convolutional Neural Network  by Tianshu Xie et al. #ComputerVision #ImageNet|0
+@Sergey Levine I'm releasing all the lectures (so far) for my deep learning class, CS182! This is an introductory deep learning course (advanced undergraduate + graduate) covering a broad range of deep learning topics. Website:  Playlist:  -&gt;|0
+@hardmaru Im2Vec: Synthesizing Vector Graphics without Vector Supervision Machine learning will soon surpass hand-engineered image vectorization methods (which are already quite good), but will allow us to more interesting things with the learned representations.  |0
+@Kirk Borne [FREE 28-page PDF] #Probability and #Statistics Cookbook:  #abdsc + 400+ Statistical Concepts Explained Simply—in 18 Parts:  + Get the book:  ————— #DataScience #MachineLearning #BigData #DataMining #Mathematics |0
+@Python posts you might have missed!  Overview of python dependency management tools & model.predict  Mario Kostelac @mariokostelac    #python #datascience |0
+@/MachineLearning List of papers with model cards |0
+@Dave Geddes  little gem to make your @code terminal windows behave like you're used to with browser tabs.  set workbench.action.terminal.kill to cmd+w set workbench.action.terminal.split to cmd+t  small dev improvements like this really add up! |0
+@twistofplate this is an OK car |0
+@Google AI Check out LEAF (LEarnable Audio Frontend), a neural network that can be initialized to approximate mel filterbanks and trained jointly with any audio classifier to adapt to the task at hand. Learn more and get the code at  |0
+@Jhey  (Exploring Opportunities ) Been trying out @johnlindquist's   Can totally see this working for a bunch of things I have in mind  One thing I wouldn't mind being able to do. Spawn a process and see the output as if I was running exec/spawn from a node script  Likely doable |0
+@Kirk Borne [UPDATED Free PDF] #DataScience Cheat Sheet covers concepts in Statistical Learning, #MachineLearning, #DeepLearning, #Probability, #Statistics, #BigData frameworks, SQL, etc. —&gt;  —————— #AI #Algorithms #Mathematics #DataLiteracy #DataScientists #abdsc |0
+@Remote & OK: Node.JS  @DVCorg is now hiring for a remote Senior Front end Engineer (Worldwide)  |0
+@Josh Tobin I enjoyed speaking today at the Stanford MLSys Seminar about gaps in the tooling stack for building ML-enabled products. I propose a tool called the Evaluation Store that could help bridge the gaps. The idea is a WIP, would love your feedback! |0
+@Josh Tobin Why do people always ask what ML framework to use? It's easy: - jax is for researchers - pytorch is for engineers - tensorflow is for boomers|0
+@hardmaru CUAD: A dataset with over 13,000 annotations for hundreds of legal contracts that have been manually labelled by legal experts, to serve as a benchmark for contract understanding. Discussion:  GitHub:  Paper:  |0
+@Segundo Ramos Hypnotic #Future of #SupplyChain &amp; #logistics are automated #warehouses  @gigadgets_ @PawlowskiMario #AI #robots #5G #IoT #IIoT #ML  @FrRonconi @mvollmer1 @iamBrianGraham @darshan_h_sheth @oluskayacan @JeroenBartelse @enricomolinari @Fisher85M @fogle_shane @HaroldSinnott |0
+@ Paige Bailey @ 127.0.0.1  #BLM  MusicTime for @Spotify  Listen to old favorites and discover new music while you program in @Code, and use metrics to help you determine which tracks make you the most productive.  I adore this concept, and have been wishing for it for so long!  |0
+@Kirk Borne This Google Tutorial (100+ slides total) on #MachineLearning is the best:  ————— #abdsc #BigData #DataScience #DataMining #NeuralNetworks #AI #DeepLearning #TensorFlow #Mathematics #Algorithms #DataScientists #ReinforcementLearning |0
+@Facebook AI We're co-hosting a research workshop at #MLSys2021 on 9th April, 2021. Accepting submissions now (articles/blogs/short papers) through March 19, 2021 for consideration. Learn more:  |0
+@Kaggle Looking to become a data analyst? We played a small part in helping Google launch the Google Data Analytics Certificate program. Sign up for pro training + the opportunity to connect with top employers that are hiring.  #GrowWithGoogle #DataAnalytics|0
+@Ricardo Ander-Egg This is something I'm very excited about!  I have decided to set up a website to publish all my software/machine learning drawings. I will try to explain concepts as simple as possible, always trying to provide examples and use cases. |0
+@Jeremy Howard So happy that my work on numeric programming in Swift has influenced the direction of both Swift and now .Net. Thank you @migueldeicaza for all you do for .Net and @clattner_llvm for your support and guidance on my Swift journey |0
+@Khosla Ventures Join @svenkatachalam and experts from OpenAI, @abacusai @intersectlabshq to understand how companies are using Machine Learning #ML to get ahead @AnkitGordhandas, @bindureddy, @josh_tobin_ at 5PM PST on Clubhouse |0
+@Pratham This Udemy course on machine learning is free for the next 48 hours, get it while you can!  |0
+@Facebook AI Fairness in AI is a complex problem. We’re taking a long-term, holistic approach to responsible AI, focused at the product, policy, and implementation levels. Learn more: |0
+@DAGsHub As #datascience projects become more complex, putting in place the best process and tools for teamwork makes an order of magnitude difference. Join @DeanPlbn and @Datarootsio to learn how to make teamwork seamless. #machinelearning #dataexperts #freecoursesonline |0
+@Open Data Science ODSC East Virtual Conference Speaker:  #ODSCEast #AI #MachineLearning @rasbt @UWMadison |0
+@Charles  Frye we'll be running a distributed hyperparameter sweep together using the magic of Colab and wandb! |0
+@matteo hessel Check out our new JAX101 tutorial to learn about the fundamentals of JAX! |0
+@Samarth Sinha I miss the older days |0
+@Mariya Yao \"Here's the notebook designed by George Mihaila on how to: - Use an already pretrained transformer model and fine-tune it on your custom dataset. - Train a transformer model from scratch on a custom dataset.\"  #AI #MachineLearning #NLP #HuggingFace #ML|0
+@TsinghuaNLP Pre-trained language models (PLMs) have brought NLP into a new era. Here is the paper list ( tracking the latest progress on PLM including modeling, compression, analysis, and finetuning. Welcome to follow and contribute! #PLM #NLProc #AI #TsinghuaNLP |0
+@Savannah Ostrowski #Pylance 2021.3.1 is out now!  Improved hover and completion tooltip readability for overloaded functions   Better import resolution perf, reducing overall analysis times (up to 30% in some projects)  Symlink support Read the changelog: |0
+@Google AI A core challenge in #DeepLearning is the disconnect between the theory of how models generalize and how they perform in practice. A new theoretical framework demonstrates how to understand model generalization through optimization behavior. Check it out at  |0
+@elvis There are many factors that contribute to model complexity in deep learning. Understanding these factors allows us to better quantify generalization and improve optimization of deep learning models. This new survey paper discusses more on the topic:  |0
+@Lak Lakshmanan Want to learn Apache Beam? Sign up for these seminars @ApacheBeam |0
+@Google AI Today we announce the release of new sparsity features in the #XNNPACK acceleration library that is powering #TensorFlowLite! Sparse inference improves efficiency without degrading quality in applications like Google Meet's background effects.  |0
+@Santiago Just posted a few days ago, \"Introduction to Deep Learning\" is the perfect place to start. Free, 1-hour YouTube video. Packed with examples, @random_forests will let you into the fascinating world of deep learning.  Highly recommended! |0
+@James Densmore A whole flock  Thank you to everyone who has picked up a copy so far! |0
+@Jarek Wilkiewicz \"We propose to create SIG TFX-Addons to facilitate community contributions of community-supported software and tools which can be used with #TFX to build a production ML solution.\" #mlengineering |0
+@PyTorch Introducing VISSL ( - a library for reproducible, SOTA self-supervised learning for computer vision! Over 10 methods implemented, 60 pre-trained models, 15 benchmarks, and counting. |0
+@François Chollet Got this very nice book in the mail. All TensorFlow/Keras, with very readable code examples. Includes a section on StyleGAN, which will come in handy since I was trying to implement it the other day |0
+@Fayez Salka The clips on the right are AI generated from raw audio.  Turn any audio file into 3d virtual concert with one click. The AI extrated notes from raw audio and generated the appropriate playing technique, hand and body motion #3d #AI #MachineLearning #vr #ar #concert #MetaHumans |0
+@Sophie Koonin I recently learned about the vscode-pets extension, you are welcome |0
+@Aurélien Geron I just pushed two Docker images to run the handson-ml2 project, with all the latest libs (incl. TensorFlow 2.4.1). docker pull ageron/handson-ml2 for CPU-only, and handson-ml2:latest-gpu for GPU support.  See  for more details. |0
+@Kevin Chan  interesting 2021 report published by Stanford’s Institute for HumanCentered Artificial Intelligence on the state of AI. The technical performance chapter is interesting highlighting recent trends around generative ML and increased NLP performance|0
+@Facebook AI Detectron2Go (D2Go) is a new, state-of-the-art extension for Detectron2 that gives developers an end-to-end pipeline for training and deploying object detection models on mobile devices and hardware.  |0
+@Mike Schroepfer 3/n these advancements break us out of the fundamental limitations of supervised learning - which have powered many of the advances in CV for the last ~7 years.|0
+@Yann LeCun A new blog post I wrote with Ishan Misra. An overview of Self-Supervised Learning.  We look at recent progress in SSL for vision &amp; explain why SSL is more challenging with high-D continuous signals (images, video) than it is for discrete signals (text). |0
+@DVC Today's the day!  DVC 2.0 is out! The new version is bursting with new features to make your machine learning life easier and and more productive with great MLOps tools! Check out our new blog post to learn what's new!  |0
+@Dr Tatiana Gabruseva (aka Tati Gabru) New DVC 2.0 version now supports deep learning experiments! -ML model checkpoints versioning -new open-source library for metrics logging -ML pipeline templating and iterative for each-stages -CML - new way to get GPU/CPU in clouds and GitHub Actions support |0
+@Malte Pietsch Probably one of the biggest, totally underestimated time savers for #ML #dev: @pycharm's remote interpreters - Switch from laptop to remote GPU with one click - Stay in the IDE + just forget that GPU isn't local (also debugging works) - Start/stop/change GPU with awscli aliases |0
+@Pratham Some useful sites for developers   ° Free practical deep learning course for coders   ° A collection of useful .gitignore templates   ° Platform for technical interview preparation Add more|0
+@abhishek If you are a beginner starting with @kaggle, I recommend the following:  Start with a couple of playground competitions (&lt; 2 months)  Read solutions from past competitions &amp; implement them yourself  Immediately move to an on-going competition w/ prize money (most to learn)|0
+@Google Fonts We're adding open source icons to Google Fonts, starting with Material Icons! Read all about it on the Material blog:  Oh and yes, we have a new logo too! Thanks for asking  |0
+@Kirk Borne FREE 630-page #Probability eBook [PDF]:  ——— + Check out top #Statistics Books — the current best-sellers at:  —————— #BigData #StatisticalLiteracy #MachineLearning #DataScience #DataMining #Mathematics #AI #DataLiteracy #abdsc |0
+@Ben Johnson Link to the full video: |0
+@Towards Data Science “Visualizing the distribution of numeric data could give us several insights such as the skewness of the data, the mode (highest peak), the distribution shape, and many more.” Zainul Arifin shares examples of how to create effective visualizations. |0
+@Boaz Barak Looking forward to hearing from @percyliang this Friday 1pm eastern about what works and what doesn't in making models robust to domain shift, adversarial robustness, or restriction to sub-populations. (Spoiler: it's not \"more data and bigger models\") |0
+@Steven J. Vaughan-Nichols Google’s New ‘Autopilot’ for Kubernetes  via @thenewstack &amp; @sjvn  #Kubernetes expert's expert @kelseyhightower explains how #Google's Autopilot enables you to use Kubernetes without tears on the @googlecloud|0
+@Nanda Syahrasyad Excited to publish my blog, NotANumber! For the first post, I talk about the sliding window pattern — a method to make your array algorithms a little faster. Check it out!  |0
+@Papers with Code MMDetection comes to Paper with Code! Explore 370 object detection &amp; instance segmentation models by @OpenMMLab:  Compare speed vs performance.  Linked papers and methods for each model.  ...and much more! Browse here:  |0
+@Sebastian Raschka @svpino @itsmeseba @mrdbourke Yeah. I think traditionally this was done in a way similar to video classification (combining CNN + RNN). Actually, I remember seeing BERT being used for that now as well, aptly named ActionBERT :) |0
+@Alexey Grigorev I have 5 copies of Machine Learning Bookcamp To win one:  Follow me  Retweet this tweet  Winners selected randomly. Results announced on Wednesday ML Bookcamp - Learn machine learning by doing projects   @ManningBooks |0
+@ Paige Bailey @ 127.0.0.1  #BLM  Interesting paper describing automated code review recommendations during (i) pre-submit, for code authors; and (ii) post-submit, for reviewers.  Produced 16% and 31% meaningful recommendations in two scenarios. Data:  Paper:  |0
+@Towards Data Science Four Deep Learning Papers to Read in March 2021 by @RobertTLange  |0
+@Isaac Flath New blog post! Instead of demonstrating @PyTorch stuff in a @fastdotai training loop, this post demonstrates the inverse (@fastdotai stuff in a @PyTorch training loop!). All parts of fastai work seamlessly with pytorch, including the training loop.  |0
+@Jeremy Howard My first interview since I decided to return to Australia. I discuss organizational AI strategy, AI accessibility, the future of deep learning, and much more.  Thanks @drjohnflackett of @_AiLab (Adelaide, Australia) for being such a great interviewer! |0
+@Isaac Flath Multi-GPU in @fastdotai? Super simple! |0
+@Pete Warden It's great to see materials from @chipro's ML Systems course at Stanford getting released: |0
+@Pratham The Linux file system explained. |0
+@DVC  Amazing discussion today! #MLOps #DataOps #MachineLearning #DataScience #startuplife |0
+@Nat Friedman You can now – finally! – drop images and videos onto the Markdown file editor on GitHub.  |0
+@Kosta Derpanis Geoffrey Hinton, How to represent part-whole hierarchies in a neural network, arXiv, 2021  |0
+@Amit Chaudhary @lilianweng @_sam_sinha_ Had a similar thought experiment a while back. |0
+@Mike Tamir, PhD How Transformers work in deep learning and NLP: an intuitive introduction  #AI #DeepLearning #MachineLearning #DataScience |0
+@NVIDIA AI Bring accelerated data science into your classroom with the NVIDIA Deep Learning Institute’s newest Teaching Kit. Free for qualified educators, it covers topics like accelerated data science with RAPIDS and ethical AI: |0
+@PyTorch FairScale, a PyTorch extension for efficient large scale training, is releasing FullyShardedDataParallel, which shards model params across GPUs (+offload to CPU). Details:  Inspired by DeepSpeed/@MSFTResearch, and made by @myleott @m1nxu @sam_shleifer |0
+@Data Elixir List of Machine Learning and Deep Learning conferences in 2021 via @tryolabs  #MachineLearning #DeepLearning #conferences|0
+@Aran Komatsuzaki DALL-E paper and code were just released blog:  code: |0
+@Julien Chaumond It took me some time to read it, but – as usual – @seb_ruder's post is awesome Recent Advances in Language Model Fine-tuning  |0
+@Martin Woodward @modmoto @jessfraz Check out |0
+@Vivek Verma IT'S FINALLY OUT! After months of work, I'm happy to announce that the first video in a series on visualizing deep learning is out. It's on visualizing the structure of a neural network. RTs appreciated :)  |0
+@Alfredo Canziani One more up!  In this lecture we go over the constituting parts of a neural net: rotation &amp; squashing (affine transformations and non-linearities). Enjoy the class.  |0
+@Full Stack Deep Learning  Tooling Tuesday  This week, a new entrant to the experiment tracking / reproducibility space:  by @replicateai  Keepsake calls itself \"Version control for machine learning\"|0
+@Mike Tamir, PhD A Tour of End-to-End Machine Learning Platforms & Databaseline  #AI #DeepLearning #DataScience #MachineLearning |0
+@Claus Wilke This spring, I'm teaching a new class on data visualization with R. I'm posting all materials as I go. Feel free to follow along. Each lecture has slides and an interactive worksheet. #rstats  |0
+@Ethan Rosenthal Some personal news: I'm excited to announce the release of nannernest: The world's first end-to-end computer vision program for building optimal peanut butter and banana sandwiches. Blog Post:  |0
+@DVC @DrElleOBrien 's new pre-release notes on CML 0.3.0 are up on the blog!   Brand new method to provision cloud compute for your CI workflows New cml-runner function New GitHub actions #MLOps #CML #CICD #MachineLearning |0
+@Andrej Karpathy Taming Transformers for High-Resolution Image Synthesis  impressive work/results! (also fun to see a shoutout and my minGPT code used for the transformer :)) |0
+@Andrej Karpathy Hosting another reading group with @jcjohnss on Clubhouse tonight at 7pm PST, tonight's episode #2 on technical details of recent work in image generation: DALL-E, ImageGPT, VQ-VAE(2), Gumbel Softmax, VQ-GAN, and friends |0
+@/MachineLearning A Curated List of 50+ Machine Learning and Data Science Cheat Sheets (Updated 2021 List) |0
+@Scott Condron Here's an animation of a @PyTorch DataLoader. It turns your dataset into a shuffled, batched tensors iterator. (This is my first animation using @manim_community, the community fork of @3blue1brown's manim) Here's a little summary of the different parts for those curious: 1/5 |0
+@Carl Caum Episode 2 of Delivery, Interrupted is live! This is the first of a multi-part series focused on MLOps. Hear from @HamelHusain, @hanneshapke, and @_inc0_ on how to get started with ML in your organization. |0
+@Ryan Morshead I just published an article about IDOM, a new Python package for creating highly interactive user interfaces!  It's @reactjs, but in Python  It even works with @ProjectJupyter and @plotlygraphs's Dash  Looking forward to your comments on the article! |0
+@Radek Osmulski : Ever wondered what ____ is? It is the method resolution order (gets populated upon object creation)  In OOP, you look up the inheritance chain for a method that is called. This is the lookup chain  Quite fun and useful for understanding what something can do! |0
+@Anindita Bhattacharya In this , I am going to summarize @TheZachMueller 's excellent talk on call-back functions on @fastdotai 's platform. I would definitely encourage you to watch the full viseo to follow his coding /debugging (libraries) style but here is a summary to get you started. |0
+@Google AI We are excited to announce the release of Model Search, an open-source, domain-agnostic #AutoML platform that helps researchers to efficiently and automatically develop optimal #MachineLearning models. Learn more at  |0
+@labml.ai Compressive transformer implementation with notes in @PyTorch Annotated code:  Github:  Paper:  @DeepMind blog:  @sidfix @countzerozzz  |0
+@Johannes Stutz Delayed tweet for day 19/100 :) Published a blog post about detecting buildings in satellite images. This was a challenging project and I'm happy to have finished it! #100DaysOfCOde #100DaysOfMLCode #deeplearning #fastai  |0
+@elvis Transformers have become an important part of the field of machine learning. Many students ask me for resources to learn about it so I have decided to just write a blog post and maintain it with key study material. I hope it helps! I will add more soon. |0
+@Stefane Fermigier Python is 30 years old this month. Here's an archive of the first beta release (by @gvanrossum obviously), version 0.9.1, with some tweaks to make it work today:  More info in this thread: |0
+@Aurélien Geron Just finished updating all the notebooks for my book to Scikit-Learn 0.24 and TensorFlow 2.4. Phew...  |0
+@Tuomo Hiippala Hiya! Four new entry-level @spacy_io 3.0 tutorials:  Custom pipelines:   Efficient processing:   Custom attributes:   Save results to disk:  15  more: |0
+@Víctor Peinado If you're building ML-based applications and today you have time to read only one thing, read this:  From the awesome course on *Machine Learning Systems Design*, by @chipro |0
+@Zach Mueller Alright everyone, the first stream has been planned! We'll be exploring the @fastdotai Callback system and look through a few different implementations with it, and understand just how to modify fastai's training loop with them! Join me Friday at 7pm CST |0
+@Python Visual Studio Code The February 2021 release of the #Python extension for VS @code is out  Check out our new TensorBoard integration  and #Pylance improvements to docstring readability and code navigation  Learn more:  |0
+@Scott Condron Treat Python files like Jupyter notebooks in @code and run pieces of code as cells.  Just add # %% above your code, run it and see the outputs in a new window!  1/3  |0
+@Santiago Python  friends:  Stop using constants.  Start using enums. Much better, huh? |0
+@Pratham Machine learning with JavaScript in 2021  Tensorflow.js  ConvNet.js  Brain.js  Neuro.js  Mind.js  Deeplearn.js  ml5.js  Stdlib-js  NumJs|0
+@Bindu Reddy  We are hosting a free applied ML and data science conference - The Science of Enterprise AI The speaker list is extremely illustrious with Peter Norvig from Google, Alon Halevy from Facebook, Marty Chavez from Goldman, and many more. More info -&gt;  |0
+@arXiv Daily Cockpit: A Practical Debugging Tool for Training Deep Neural Networks  by Frank Schneider et al. #Hyperparameter #PyTorch|0
+@Josh Tobin Toward the bottom of this lecture note from @chipro is a compilation of 10 case studies in production ML. Some gems in there, including a few I hadn't seen! |0
+@Towards Data Science Python For Data Science — How To Get More Views On Youtube by Nicholas Leong |0
+@Towards Data Science Google Cloud services for MLOps by @JLmarechaux |0
+@Andrej Karpathy Awesome!! :) I will unfortunately be in the middle of real work at 3pm PST. Which points to the biggest drawbacks of Clubhouse atm - no option of recording when it makes sense, and ofc iPhone / invite issues. Love the ease of use and interactivity the platform affords though! |0
+@Mandela Patrick Hosting an exciting session w/ @joshim5 on Clubhouse tomorrow evening on Large Language Models with some of the authors of the most exciting papers in the last year! @EthanJPerez , @candacerossio , @katherine1ee, @Tim_Dettmers! 6pm EST! |0
+@GoodNotes Hey teachers, professors, and tutors  Help us understand how you come up with questions for homework and other assignments by filling out this super quick survey. Thanks in advance   |0
+@Hamel Husain I’ve recently struggled to understand Python concurrency: - How threads &amp; processes work on your OS vs Python - The role of CPUs, hardware &amp; the GIL - Understanding beyond rules of thumb After tons of research, I wrote this w/the answers plus more  |0
+@Victor Dibia I enjoyed listening to this discussion hosted @russelljkaplan and @karpathy @RichardSocher @jcjohnss . For those who couldn't attend, I have written a summary of my rough notes.   |0
+@Jay Alammar Einsum is a key method in summing and multiplying tensors. It's implemented in @numpy_team , @TensorFlow , AND @PyTorch. Here's a visual intro to Einstein summation functions.  1/n |0
+@Zach Mueller New Blog Alert! Come learn how to integrate your @PyTorch into @fastdotai with the most minimal fastai possible! What does this entail? - Pytorch Datasets - Pytorch DataLoaders - Pytorch Models But, is it really so easy as advertized? |0
+@Thomas G. Dietterich Every once in a while, something amazing comes out on @arxiv. Check out this cool new ML book by @mrtz and @beenwrekt . |0
+@ Paige Bailey @ 127.0.0.1  #BLM  Did you know that there is a new open-source @Stripe extension for @Code? It makes it easy to monitor API request logs in real-time, generate sample code, trigger and forward webhook traffic, debug configs, and more. :  :  |0
+@Daniel King  New ScispaCy release   This release is compatible with @spacy_io v3, and has a new SciBERT based model (en_core_sci_scibert). For now we use SciBERT for the parser and tagger (with a nice ~3 point parsing boost), but plan to extend to NER soon!|0
+@Radek Osmulski Hey friends - what are you using the @fastdotai lib for? Answer below  One person wins a copy of my book |0
+@MLOpsRoundup Newest issue of our newsletter is out! Featuring Big Ideas 2021 by @ARKInvest, ML maturity test score by @Google, Thoughts on ML monitoring by @jeremyjordan, ML Systems security and more. Check it out here: |0
+@Towards Data Science Microkernel Architecture for Machine Learning Library by Chen Yanhui |0
+@Pete Skomoroch Free ML project idea: use the @huggingface @PyTorch implementation of Facebook's Wav2Vec2 to generate automatic transcriptions of uploaded videos |0
+@Sarah Fakhoury When does a method need a summary comment? Take 10 minutes to play around with our code gallery and let us know what influences your decision!  |0
+@Will McGugan After seeing @HamelHusain and @jeremyphoward 's work on ghtop, I realised how much potential Rich has for these type of interfaces. I've started work on making these full-screen terminal interfaces a first-class concept in Rich. Here is the progress! |0
+@Tuomo Hiippala Four new entry-level tutorials on @spacy_io 3.0!  Morphological analysis:   Parsing:   Lemmatization:   Sentence segmentation:   Supporting materials: |0
+@Zach Mueller This seems to have gotten the wrong impression somehow. This is not a complain-about-it-all thread. Only *genuine* I have issues implementing x or understanding how to go from a -&gt; b please. And specifically when integrating with Pytorch |0
+@Zach Mueller Can you let me know what you struggle with the most in @fastdotai? Specifically from a Pytorch perspective. What confuses you the most? Using Pytorch DataLoaders in the framework? Implementing custom loss functions? Implementing custom models? Advanced Callbacks? Etc. TIA!|0
+@Johannes Stutz @ricardoanderegg @TheZachMueller @fastdotai It's a shameless plug and probably too basic for you, but here's what I wrote down while exploring fastai's midlevel API: |0
+@mat kelcey i wrote a 4 part tutorial / colab / screencast series starting with jax fundamentals working up a data parallel approach to running on a cloud tpu pod slice... all focused on solving the toughest problem in machine learning; 1d y=mx+b  #blog|0
+@Towards Data Science Pagination in streamlit by @ElisonSherton |0
+@Henning Dieterichs Github1s is really nice. Just add \"1s\" after \"github\" when viewing code on  and VS Code loads up instantly: |0
+@Towards Data Science A Learning Path To Becoming A Natural Language Processing Expert by @SaraMetwalli |0
+@Towards Data Science Rich: Generate Rich and Beautiful Text in the Terminal with Python by @KhuyenTran16 |0
+@Full Stack Deep Learning  Tooling Tuesday  This week: @ApacheTVM ( TVM describes themselves as a an \"end to end machine learning compiler framework for cpus, gpus, and accelerators\". Let's talk about what that means and why it might be useful for you:|0
+@SnorkelAI We are starting a new vodcast called Snorkel #ScienceTalks, exploring some of the best ideas to make AI practical. In the 1st episode, @bradenjhancock talks to @Thom_Wolf about @HuggingFace Datasets &amp; Transformers, and taking ML research into production.  |0
+@Isaac Flath I am reimplementing kaggle winning code in @fastdotai. It's trivial to reorganize pytorch code like @PyTorchLightnin does, but there's just better ways with fastai. In an upcoming blog post I move @PyTorchLightnin code to @fastdotai A few examples: Thread /1|0
+@TensorFlow  TensorFlow Everywhere is ready for take-off! With over 20 locations and 9 languages, join us for #TFEverywhere2021 - a series of global events led by TensorFlow and machine learning communities from around the world.   Find an event near you →  |0
+@Hugging Face Transformers is expanding to Speech! Transformers v4.3.0 is out and we are excited to welcome @facebookai's Wav2Vec2 as the first Automatic Speech Recognition model to our library! Now, you can transcribe your audio files directly on the hub:  |0
+@Ines Montani  NEW: The  nightly program, open to all users of the latest version  Try out cutting-edge updates, including:  spaCy v3 integration  overlapping &amp; nested span annotation  new feed internals for multi-user sessions Details:  |0
+@labml.ai Tried @fastdotai; they have a neat high-level API to train/fine-tune models with just couple of lines of code. Wrote a simple callback to track training on @labmlai. Looking forward to learn their mid-level apis.  Run:  |0
+@Towards Data Science .@apeforest goes deep on deep learning frameworks and their evolution since the Stone Age (aka the early aughts). |0
+@algoritmic Spyder – a free and open source scientific environment written in Python  |0
+@Jeremy Howard I’m hearing comments that Grid AI (Lightning) seem to have copied fastai's API without credit, and claimed to have invented it. We wrote a paper about our design; it's great it's inspiring others. Claiming credit for other's work? NOT great 1/ |0
+@The New Stack  Git-Based Machine Learning Tools for Data Engineers  @HallSd #DataEngineers|0
+@Chip Huyen So I wrote a 5400-word lecture note on the basics of data engineering for my students, covering: * data formats (row- vs. column-based, text vs. binary) * ETL * batch processing vs. stream processing * training datasets WIP. Feedback much appreciated!  |0
+@Towards Data Science Python beyond beginner stage: good practices and tools by Aman Rusia |0
+@Guido van Rossum Notebooks in VS Code revamped. ToC, Diffing, Gather, LiveShare, and more.  Thanks @ClaudiaRegio !|0
+@abhishek  ColabCode 0.2.0 brings Jupyter Lab to Google Colab!!! Powered by ngrok, you can now run fully-fledged jupyter lab right from colab!  \"pip install -U colabcode\" And don't forget to give the repo some love:  ;) |0
+@AI Fast Track Image Segmentation Using Deep Learning: A Survey PDF:  Abstract:  |0
+@DeepMind Why does Stochastic Gradient Descent generalise well in deep networks? Our team shows that if the learning rate is small but finite, the mean iterate of random shuffling SGD stays close to the path of gradient flow, but on a modified loss landscape  |0
+@Open Networking Foundation Don’t miss this live virtual event to learn about the latest VOLTHA v2.6 features &amp; roadmap. Hear about Deutsche Telekom and TurkTelkom production networks using VOLTHA &  #Broadband #OpenSource #Telecom |0
+@PyTorch Lightning Excited to share Lightning Flash, the fastest way to get started with deep learning. Flash is a collection of DL tasks that make inference, finetuning, and training simpler than ever. GitHub:  Read more in our blog:  |0
+@PyTorch Learn how to use the Determined AI platform to offload common infrastructure problems such as scaling training and hyperparameter tuning when developing #PyTorch models. |0
+@Data Elixir Causality for Machine Learning via @FastForwardLabs  #Causalinference #MachineLearning|0
+@Ines Montani  If you want to find out what the new @spacy_io v3 is all about, check out this video I recorded with @honnibal  We're walking you through some of the most exciting new features!  Watch it here:  |0
+@NICK BULL You know that \"Googling\" is one of the top 5 skills for web developers? Here 7 tips to master it ↓|0
+@Alexis Moussine-Pouchkine Data Engineer in 2021 by  (via @polleyg) Source:  |0
+@Javier Ideami launching shortly, the losslandscape explorer 1.0 beta #MachineLearning #deeplearning #ai #ArtificialIntelligence #inteligenciaartificial #optimization #Math #losslandscape #losssurface #visualization |0
+@Towards Data Science How to Create Beautiful Word Clouds in Python by @tiamariaselena |0
+@Open Networking Foundation Register to attend a live virtual event by experts to learn about ONF’s SD-RAN project and exciting recent v1.0 release, roadmap and much more. Register now!   #SDRAN #openran #mobilenetworks #opensource |0
+@Flutter  Kickstart your learning journey with #30DaysOfFlutter Get ready for 30 Days of learning @FlutterDev. Starting Feb 1st, we'll share new code labs and demos, and will host Live AMAs with Flutter Experts. Sign up →  |0
+@Data Elixir Check out Everyday Data Science by @andrew_n_carr for ways to use data science in your day-to-day life:  #DataScience |0
+@Full Stack Deep Learning Tooling Tuesday Good training data is like half of the task when it comes to machine learning. There are many great tools and services for annotating your data. Today, we'll talk about  1/6|0
+@Data Elixir Illuminated equations via Agile Scientific  #math #visualization|0
+@Towards Data Science SOM: the data science tool you didn’t know you need by Davide Ratto |0
+@Martin Renou #ipygany 0.5.0 is out! The Python library for scientific visualization in a @ProjectJupyter Notebook, powered by your GPU! This release adds support for JupyterLab 3 and new colormaps and colorbars. Repo:  Live docs:  |0
+@elvis Great opportunity to learn about machine learning engineering with these three new (2021) courses:  Applied Machine Learning   Full Stack Deep Learning   CS 329S: Machine Learning Systems Design  |0
+@Ross Wightman This paper is worth a read. Interesting tidbits on ResNets, EfficientNets, RegNets, (batch) normalization, augmentation, regularization, bottlenecks. `Characterizing signal propagation to close the performance gap in unnormalized ResNets` - |0
+@Michael Perlin I made a series of youtube videos \"Architecture of machine learning systems\" * Why DS needs software architecture * Mastering requirements * Taking technical decisions, best practices * Communication and documentation * Skills and personal development |0
+@Javier Abellán Tired of not fully understanding the Attention of the Transformer? I've made this illustration for you.  |0
+@Ines Montani   Coming soon to @spacy_io v3 and    span categorizer component to predict labels for overlapping spans &amp; phrases  annotation mode for overlapping spans  mix with classic NER or custom suggestion logic  efficient Doc.spans data structure |0
+@William Fedus Tutorial implementation of Switch Transformer in @PyTorch! |0
+@Josh Tobin Our goal at @full_stack_dl is to fix this bug in the ML education system and teach you skills &amp; mindsets to deal with the outer loop. |0
+@DeepLearning.AI Proud to partner with @workera_ to bring you AI + X, a new event series featuring AI experts! Join us for our kickoff event AI + X: DON’T SWITCH CAREERS, ADD AI at 10am PST on Thur / Feb 4, &amp; hear from experts from Accenture, Illumina, &amp; Johnson &amp; Johnson:  |0
+@Surachart O.  Learning Helm  via @OReillyMedia|0
+@Ines Montani  I have no idea how @wjb_mattingly finds time to produce so much content, but this YouTube channel is a real treasure trove of NLP, ML, Python and @spacy_io tutorials, for Digital Humanities &amp; beyond, from hands-on applied NER to analyzing Latin    |0
+@Jeremy Howard Exciting #nbdev development thanks to @HamelHusain! We're now using our own theme based on @tomjohnson’s documentation theme. You don't need to change anything. But there are many benefits to converting existing repos to use the theme. Info  |0
+@elvis Transformers have shown to be useful in NLP for performing all sorts of different tasks. What's more interesting is how they are being applied in new domains. Transformers are accelerating research at an unbelievable rate! I highlight a few papers here:  |0
+@Sayak Paul Anchor box tuning is extremely helpful especially when you know about the smallest and the largest sizes of the objects to be detected.  Here's my latest project demonstrating that -  With #MobileDets I got parameter efficiency as well as performance. |0
+@Microsoft Research Microsoft and CMU researchers begin to unravel 3 mysteries in deep learning related to ensemble, knowledge distillation &amp; self-distillation. Discover how their work leads to the first theoretical proof with empirical evidence for ensemble in deep learning: |0
+@Yuvi Panda  started by @hamelsmu is pretty awesome|0
+@Josh Tobin Tonight we're starting our CS194-080: Full Stack Deep Learning class at Berkeley! Looking forward to talking about the challenges in turning machine learning projects into ML products, and seeing what amazing projects the students come up with :) |0
+@Hugging Face Fine-tuning a *3-billion* parameter model on a single GPU? Now possible in transformers, thanks to the DeepSpeed/Fairscale integrations! Thank you @StasBekman for the seamless integration, and thanks to @microsoft and @facebookai teams for their support! |0
+@Dean  IRL, datasets are rarely static. They grow, change, and evolve over time. This isn't reflected in how most datasets are maintained. Codebases are managed using Git, so why not create living Git repositories for our datasets? |0
+@Data Elixir Getting Started with Graph Databases: Azure CosmosDB with Gremlin API and Python by @JavierRamosRod |0
+@Ravin I discovered a fantastic GitHub repository called: 30 seconds of interviews. A curated collection of common interview questions to help you prepare for your next interview. GitHub Link -  |0
+@Towards Data Science The hottest slang of 2020, according to Google Trends data by @vastava_ |0
+@Goku Mohandas The Experiment Tracking &amp; Optimization lessons are out! - Tracking, viewing and loading w/ @MLflow - HP optimization (sampling + pruning) w/ @OptunaAutoML - Advantages of using @weights_biases, @Cometml etc. • Lessons:  • Colab:  |0
+@Ines Montani  This is a great blog post series by @HeyChelseaTroy on technical debt &amp; how to avoid it  Featuring: how we keep maintenance load below average for @spacy_io and @explosion_ai, plus some great points on what companies can learn from open source! Link:   |0
+@Data Elixir Interfaces for Explaining Transformer Language Models by @JayAlammar |0
+@Towards Data Science Load Data from Twitter to Snowflake by Kim Te |0
+@Lak Lakshmanan Looking forward to talking with @dpbrinkm and the @mlopscommunity on Jan 27 (Wed next week) about Machine Learning Design Patterns (Book:  ) for MLOps (Solution:  code:  Register:  |0
+@énie         .           ,  .              .|0
+@QuantStack \"Robotic Process Automation with JupyterLab\" by @MartinRenou and @JohanMabille. Check out our latest blog post on the @robotframework kernel for @ProjectJupyter. Many thanks to @RobocorpInc for pushing the open-source RPA ecosystem forward. |0
+@Chip Huyen First 2 lectures' slides/notes on machine learning systems design are up! Covering: - Batch vs. online prediction, edge vs. cloud, offline vs. online learning - Multiple-objective optimization - When &amp; when not to use ML ... Feedback much appreciated! |0
+@Google Korea   (GNI)       33   ‘    ’ .  20  4     ,       (   .|0
+@Sayak Paul A very refreshing coverage of a wide variety of topics in the area:  Thank you, @FeiziSoheil, for this course.|0
+@Towards Data Science Python Parallelism: Essential Guide to Speeding up Your Python Code in Minutes by Dario Radečić |0
+@Towards Data Science Data Science vs Computer Science. Here’s the Difference. by Matt Przybyla |0
+@Andrej Karpathy Because deep learning is so empirical, success in it is to a large extent proportional to raw experimental throughput - the ability to babysit a large number of experiments at once, staring at plots and tweaking/re-launching what works. This is necessary, but not sufficient.|0
+@Jay Alammar A Gentle Intro to Transformer language models and how  makes them more transparent  My talk at @PydataKhobar is now live! Thanks to the organizers. Colab: |0
+@Learn Python With Rune  Python stuff to master  - Step 1: First glance at the data - Step 2: Loading the data into a DataFrame (Pandas) - Step 3: Count the occurrences of each country - Step 4: Understand the map data we want to merge it with - Step... - (more) |0
+@Towards Data Science Jupyter Notebook Extensions (part 2) by Magdalena Konkiewicz |0
+@Sage Elliott  This AI study jam about on-device machine learning with @lmoroney, @jerrykur &amp; @margaretmz sounds super awesome! |0
+@Google AI Introducing ToTTo, an open domain table-to-text generation dataset, a challenging benchmark for high-precision text generation, and a controlled text generation task that can be used to assess model “hallucination”. Read more and grab the code at |0
+@elvis  This repo is insane! Around 800 Computer Science online courses ranging from intro to machine learning to probabilistic graphical modeling to math for CS. I am sure there is at least one useful course for everyone.  |0
+@Full Stack Deep Learning Tooling Tuesday Today, we share a @GoogleColab notebook implementing a Transformer with @PyTorch, trained using @PyTorchLightnin. We show both encoder and decoder, train with teacher forcing, and implement greedy decoding for inference.  1/N|0
+@Andrej Karpathy Maybe it's because I am travel starved, but I am really getting into and enjoying a growing genre of 4K walking videos around the world, e.g.  has a few examples. Interesting to leave running on TV in the background, unscripted samples of human condition|0
+@Data Elixir How Transformers work in deep learning and NLP: an intuitive introduction by @nadaloglou  #NLP #DeepLearning|0
+@Towards Data Science Ensemble Learning: Bagging &amp; Boosting by @Fernando_LpzV |0
+@Jon Schwabish Welcome to an exciting new project: One Chart at a Time Video Series. More than 50 short videos to help you expand your graphic literacy. #OneChartataTime & |0
+@  !    PM            |0
+@Data Elixir Toward Effective Data Journeys in Exploratory Visual Analysis via @DataVizSociety  #DataViz|0
+@Learn Python With Rune  Learn by watching  Learn Python Lists Performance in Various Use Cases - Demonstrated with code examples |0
+@Amit Chaudhary I am looking for free sites to host ML models for side-projects. Found this nice list by @paperswithcode. Zenodo( looks very promising with 50 GB of storage. Are there other sites besides these? |0
+@daily.dev 10 Best Mobile App Templates of 2021 via @instamobileio #mobiledevelopment #mobiledesign |0
+@Bernd Ruecker Early Release was just updated with the latest book draft (thanks @OReillyMedia) and now includes chapter 1-8 (also contains an in-depth discussion of #microservices boundaries and #ProcessAutomation + a discussion of #orchestration vs. #choreography): |0
+@Data Elixir How Foxconn built an end-to-end forecasting solution in two months with Amazon Forecast via @awscloud |0
+@AK GAN-Control: Explicitly Controllable GANs pdf:  abs:  project page:  |0
+@Towards Data Science Bring Explainable-AI to the Next Level by Finding the ‘Few Vital Causes’ by Samuele Mazzanti |0
+@Amit Chaudhary Interesting write-up by @ramsri_goutham showing how you can use @OpenAI's CLIP model for \"text to image\". k-NN + CLIP ≈ DALL-E ? |0
+@Nicholas Vadivelu Woah wish I knew about this existed sooner:  Generates LaTeX for beautiful neural network visualizations (like the FCN-32 shown below). |0
+@Towards Data Science Ultimate Guide for AI Game Creation Part 2 — Training by Daniel Brummerloh |0
+@Jeremy Howard IIUC this \"new technique\" from Facebook is actually just a slight repackaging of bits of @wightmanr's brilliant timm library. Great they wrote a paper that documented how well it works, but they should at *minimum* have cited timm, and really should have made him senior author |0
+@fast.ai We've just released fastai 2.2. This contains some fairly minor breaking changes, which should only impact you if you write your own callbacks, or use custom RNN code. The main feature is improved FP16 training. 1/ |0
+@Dive into Deep learning (D2L.ai) Check out our brand-new attention chapter, such as simpler illustrations using Nadaraya-Watson kernel regression (1964) before Bahdanau attention. Now PyTorch adaptation is complete for Vol.1. The first 1/3 part is also translated into Chinese and Turkish.  |0
+@Carolina Bento Thanks @TDataScience for featuring my article on Markov Chains and Markov models in today’s newsletter |0
+@Ilya Sutskever An NN takes a list of category names, and outputs (in a zero-shot manner) a visual classifier. It beats RN50 on ImageNet zero-shot, while being far more robust to unusual images:  |0
+@Jeremy Howard Wow. @OpenAI has trained a model that can create new images - you just describe them in English.   |0
+@Randy Olson Oooooh! Fancy new progress bars in #Python. #programming Repo:  |0
+@Hugging Face Release alert: the datasets library v1.2 is available now! With: - 611 datasets you can download in one line of python - 467 languages covered, 99 with at least 10 datasets - efficient pre-processing to free you from memory constraints Try it out at:  |0
+@Mike Tamir, PhD Introduction to Linear Algebra for Applied Machine Learning with Python  #AI #DeepLearning #MachineLearning #DataScience |0
+@Project Jupyter JupyterLab 3.0 is released! - visual debugger - support for multiple display languages - table of content for notebooks - improved extension system. Check out the announcement blog post. |0
+@Xavier Bresson My main talks on Graph Neural Networks in 2020 1. Introduction to GNNs  2. Recent developments in GNNs  3. Benchmarking GNNs  Hope they can be useful. Happy new year to everyone ! |0
+@Melanie Walsh I'm excited to share my course website and interactive textbook, which introduces Python programming for analyzing cultural materials like books, movies, songs, &amp; social media. Textbook/website:  Blog post:   More details |0
+@OpenMMLab Excited to announce a new member of OpenMMLab: MMTracking! It is a video perception toolbox based on @PyTorch that supports multiple tasks in a unified framework: - Video Object Detection - Single Object Tracking - Multiple Object Tracking Try it at  |0
+@Kaushik Koneripalli @balavenkatesh22 @chipro JAX is basically NumPy on steroids. A way to put NumPy arrays on GPU and speed up computations. Also JAX has it's own autograd engine. So you can define neural networks in simple python code and it will already be differentiable AND run on GPU.|0
+@Sam Jacobson @chipro  - super fast stateful #serverless functions (for devopsless #MLOps) Supports 7 languages.  At @iguazio we use for data ingestion and online inferencing at enterprise scale.|0
+@Towards Data Science How to visualize hypergraphs with Python and networkx — The Easy Way by Alessandro Angioi |0
+@Bojan Tunguz Python Tricks The Book — Review |0
+@Jean Kossaifi Wouldn’t it be lovely for #TensorLy to reach 1K stars on GitHub for the new year? Check it out if you’re interested in tensor methods in #Python with @numpy_team, @PyTorch, @ApacheMXNet, @CuPy_Team, @TensorFlow or #JAX!  If you  give us a  Happy 2021!|0
+@Lilian Weng The first post to start 2021: How to steer a powerful unconditioned language model to output what we want? It is still a challenging open research question. There are some ways although still only in limited domains. |0
+@Guido van Rossum Beautiful book. A worthy capstone for the series. |0
+@GitHub Projects Today we're showcasing \"Sherlock\"   Hunt down social media accounts by username across social networks. #100DaysOfCode #Python #OSINT |0
+@Towards Data Science Transformers Explained Visually (Part 2): How it works, step-by-step by Ketan Doshi |0
+@Python posts you might have missed!  \"spacy-course • In the course, you'll learn how to use spaCy to build advanced natural language understanding systems, using both rule-based and machine learning approaches.\"  Ines Montani  @_inesmontani; spaCy @spacy_io   #python #datascience|0
+@Leo Gao Announcing a new dataset: the Pile! A free and publicly available 800GB dataset of diverse English text for language modeling! Download:  Paper:  1/7 |0
+@GitHub Projects Want To Master AI ? Today we will share Roadmap to becoming an Artificial Intelligence Expert in 2021 With more than 8.5k  on GitHub [Check The Link In Attached Tweet] P.S: All your fundamentals about A.I will be covered in this. RT/Share #100DaysOfCode #Python #ai #ml |0
+@Gary Marcus Forgets GPT~3. Real #AI news of 2020 is that @ylecun &amp; Y Bengio have converged w @yudapearl, @emilybender, me, etc in realizing large language models are not enough  to Next Decade in AI = deeper understanding &amp; richer cognitive models, discussed here: |0
+@Omar Rizwan  TabFS: mount your browser tabs as a filesystem |0
+@elvis  ML Visuals now has over 100 fully customizable figures (all open community contributions) that you can freely use for your next machine learning or deep learning paper, blog post, thesis, or presentation.  Slides:  GitHub:  |0
+@Sebastian Raschka After reading @ChristophMolnar 's Interpretable ML book this year, I am always on the lookout for new techniques and implementation. Just saw the DALEX paper today (\"Responsible ML with Interactive Explainability and Fairness in Python\") Cool stuff:  |0
+@Towards Data Science Writing a custom data augmentation layer in Keras by @lak_gcp |0
+@elvis My recipe if I were starting with PyTorch for deep learning all over again: - do \"60 min blitz\" on docs - do \"what is torch.nn really?\" tutorial - do at least one example tutorial on audio/video/nlp - follow up with examples in this \"Awesome PyTorch\" repo:  |0
+@Alex Selby-Boothroyd As a Christmas gift to our readers, we've collated all 51 Graphic detail articles from 2020 into one downloadable PDF. There's a link at the bottom of our charts round-up which non-subscribers can access for free by registering with an email address   |0
+@Dominic Royé The most visited blog post in 2020 was the very short introduction to tidyverse. #rstats  |0
+@Towards Data Science A Collection of Advanced Data Visualization in Matplotlib and Seaborn by Rashida Nasrin Sucky |0
+@Towards Data Science 8 Rules for optimal use of color in data visualization by @Aseem73218670 |0
+@Marissa Goldberg I've been tracking my emotions and a daily memory for 1,230 days in a row (over 3 years ).  Here are 5 lessons learned: |0
+@Ravin I discovered a fantastic GitHub repository called: Coding interview university.  A complete computer science study plan to become a software engineer.  Link --&gt; github.​com/jwasham/coding-interview-university |0
+@Kyunghyun Cho students are curious, and their questions are great: a few select questions from this semester, and my (incomplete) answers at |0
+@Yury Kashnitsky Following a talk \"Firing a cannon at sparrows: BERT vs. logreg\"  I'm sharing my BERT classifier fine-tuning pipeline (@PyTorch + @huggingface + @catalyst_core):  + a video tutorial in 4 parts  |0
+@Towards Data Science Benchmark M1 vs Xeon vs Core i5 vs K80 and T4 by Fabrice Daniel |0
+@Sedrak Mkrtchyan @AlbertoCairo I have the full collection :) |0
+@Rachel Thomas I made a playlist of 11 short videos (most are 7-13 mins long) on Ethics in Machine Learning This is from my 2 hrs ethics lecture in Practical Deep Learning for Coders v4. I thought these short videos would be easier to watch, share, or skip around  |0
+@Towards Data Science NLP &amp; Numeracy (Pt 2) — Embeddings, Language Models and Calculators by Mihail Dungarov |0
+@ Paige Bailey @ 127.0.0.1  #BLM  Man, I wish this guide existed a year ago:  |0
+@Data Elixir Awesome AI Guidelines via @EthicalML  #AI|0
+@O'Reilly Media [NEW RELEASE] 97 Things Every SRE Should Know -- Get actionable advice on several topics, including how to adopt SRE, why SLOs matter, when you need to upgrade your incident response, and how monitoring and observability differ.  #OReillyExperts #NewBook |0
+@Data Elixir Introducing OpenLineage via @DatakinHQ |0
+@O'Reilly Media [NEW RELEASE] Head First Design Patterns, 2E -- This book, by @erictfree &amp; @elisabethrobson shows you the patterns that matter, when to use them and why, and the object-oriented design principles on which they're based.  #OReillyExperts #NewBook |0
+@EJ Fox  In an old hard drive I found my collection of 182 hand-curated art gifs from dribbble and tumblr, so I put them on S3 and now there's a little notebook that makes them easy to explore |0
+@Charlie You Top universities for the self-taught deep learning engineer  Fast AI (@fastdotai)  Coursera (@DeepLearningAI_)  Full Stack Deep Learning (@full_stack_dl)  Youtube (@ykilcher, @AICoffeeBreak et al)  arXiv No  needed! |0
+@Towards Data Science Python Jupyter Notebooks in Excel by @pyxll |0
+@O'Reilly Media [NEW RELEASE] Building Serverless Applications with Google Cloud Run by @wietsevenema -- This book will appeal to developers who are early in their learning journey as well as experienced practitioners.  #OReillyExperts #NewBook |0
+@/MachineLearning The best AI papers of 2020 with a clear video demo, short read, paper, and code for each of them. |0
+@Stephen Diehl This is interesting. Linking ML kernels into the CPython runtime using LLVM generated from higher level typed languages. |0
+@William Falcon Super cool! Excited to announce our partnership with @facebookai to help standardize research and production code with @PyTorchLightnin. If you're a company not using lightning, look into it! It's great for research AND production :) |0
+@abhishek  NEW VIDEO: Deep learning for almost any text classification problem!!! Check it out here:  #datascience #machinelearning #deeplearning #nlproc #100DaysOfCode #100DaysOfMLCode |0
+@daily.dev Netflix at MIT CODE 2020 via @Medium #datascience #experimentation #abtesting #causalinference |0
+@Mike Roberts Yay! @Apple publicly releases its first large image #dataset for #AI #research  74K high-resolution HDR computer-generated images of realistic indoor scenes with 1.9TB of pixel-perfect labels  Dataset download link:  |0
+@Jeremy Howard Fun addition to fastcore.xtras - sparkline!  |0
+@O'Reilly Media [NEW RELEASE] Flow Architectures -- What happens when event and data stream standards help you discover new activity sources to enhance existing businesses or drive new markets? Expert @jamesurquhart will guide you.  #OReillyExperts #NewBook |0
+@Hamel Husain ghapi the most impressive python package I have ever seen: - Library is dynamically generated from a spec - Next-level tab completion and links to external docs - Inclusion of test data for each endpoint - Pythonic interfaces for everything ex: pagination - etc. |0
+@Sasha Rush Named Tensor Notation ( v0.2) w/ @davidweichiang and @boazbaraktcs  A tensor notation based on axes with semantic labels. Makes neural networks (and many other ops) non-ambiguous. Comments requested:  |0
+@Boris Müller ICYMI: the SENSES team at @uclab_potsdam has been doing truly amazing work! The team has launched a new learn module on climate change scenarios – every week! In the next few tweets, I will present some highlights from the SENSES Toolkit! →  |0
+@Jarek Wilkiewicz . @TensorFlow Extended (#TFX) PyPI package reached 5MM downloads. Yes, many of these are machine-generated rather than humans, but still, #MLEngineering ( is slowly but surely becoming a thing |0
+@daily.dev Recreate the Cyberpunk 2077 Button Glitch Effect in CSS via @sitepointdotcom #html |0
+@Jia-Bin Huang The wait is over!  @gaochen315 released the video completion code in @GoogleColab.   No environment setup! Just run the code directly in your browser. Try it out and have fun!  |0
+@Open Networking Foundation Just released SEBA RD v2.0 for ONF member review - new features: BNG Disaggregation, Scaling &amp; New Services for Broadband Access Networks - learn more &  #Broadband #OpenSource @ATT @Telekom_group @GlobalNTT @TurkTelekom @Ciena @IncNetsia @Radisys |0
+@O'Reilly Media There is a misunderstanding of what #AI truly is and how it can help us. @rroumeliotis explores this in further detail in @AIMagazine_BC and discusses how #AI creators need to capitalise on the fantasy of #AI for long term benefits. Check it out here: |0
+@PyTorch Learn how the @mytheator team has built a video-based analysis platform that helps extract in-detailed and meaningful data from lengthy surgical operation videos all while maintaining strict patient privacy. |0
+@Francesco Pochetti Join us! So much to learn! |0
+@abhishek My List of Best Computer Vision Competitions on @kaggle For Beginners!!!! Check it out here:  |0
+@Stanford HAI A basic AI language-processing system can create 1,400 pounds of emissions – or the amount produced by flying roundtrip between NYC and San Francisco. How can we mitigate this impact? |0
+@Fabian Fuchs There is still quite a bit of mystery around the details of @DeepMind's AlphaFold 2, but equivariance &amp; symmetries may have played a significant role in their success.  This is @JustasDauparas's and my take : |0
+@Nicholas Rougeux New: A Brief Visual Exploration of A Dictionary of Typography. Exploring the structure of John Southward’s small dictionary published in the 1870s. Plus, two new posters. Quite unnecessary, yet fun to make. Explore:  Making of:  |0
+@Lilian Weng We are glad to share a rich collection of Mujoco simulation environments for training robotic tasks, including the hand for solving Rubik's cube and a variety of object manipulation tasks on the table surface with one UR arm and gripper.  Have fun!|0
+@Sasha Rush New Preprint: Diff Pruning ( by Demi Guo / Yoon Kim Lab () How many BERT parameters do you really need to change during fine-tuning? Turns out the answer is 0.5% Allows new task adaption by shipping extremely small param diff's |0
+@Sasha Rush MiniTorch v0.2 ( A code-it-yourself textbook for minimal autodiff, tensors, gpu's, and nn's.  Battletested through a semester with 5 autotested assignments.  (Aiming for a v1 by early January. DM for teacher's key) |0
+@Barret Zoph Can simply copying and pasting objects from one image to another be used to create more data to improve state-of-the-art instance segmentation? Yes! With Copy&amp;Paste, we achieve 57.3 box AP and 49.1 mask AP on COCO. This is SoTA wrt @paperswithcode  |0
+@Machine Learning Mastery How to Develop a Pix2Pix GAN for Image-to-Image Translation |0
+@DeepMind Can artificial agents understand space the way animals do? Our researchers propose a model that transforms visual experience into the spatial representations found in the hippocampal formation:  |0
+@Anastassia Says Stuff Teaching a virtual intro to SpaCy lab this Wednesday:  Everyone is welcome (it is on twitch) #connectforward #NLProc @spacy_io|0
+@PyTorch pystiche is a PyTorch framework for Neural Style Transfer. It is one of the winners of 2019 PyTorch Summer Hackathon. Since then, it is peer-reviewed by pyOpenSci and published in the Journal of Open Source Software (JOSS). Learn more: |0
+@TensorFlow  TensorFlow 2.4 is here!  This latest release includes increased support for distributed training and mixed precision, new NumPy frontend, and tools for monitoring and diagnosing performance bottlenecks.  Learn more ↓ |0
+@Patricia It's time to sit down and process 2020  spent the past weekend reflecting &amp; it was very cathartic.  Sharing my template here: - monthly review: what gained/drained energy? - mood board - values exercise - personal OKRs  to your personal development and wellbeing  |0
+@Simon Chiu Launched v2 of the main sales website for  I wanted to simplify the design, as well as move away from the “default” theme look. As well, a large % of people browsed on their phones — so I compressed things to one page. |0
+@Alberto Cairo The draft-in-progress of 'Hands-On Data Visualization', a book by @DoughertyJack and @ilyankou is fully available online, and it looks really nice:  #dataViz #infographics #ddj |0
+@Josh Tobin  \"ML tools should allow data scientists to accomplish more with less work. The number one opportunity for this is to separate the engineering work that data scientists are currently overwhelmed with from the science that they love.\"|0
+@abhishek \"Tez: A Simple PyTorch Trainer\" now has 300 stars  on GitHub!!! Thank you, everyone!!! Simplicity is the best! Check it out here:  |0
+@RAPIDS AI NVTabular from @NVIDIAAIDev is now built on @RAPIDSai @dask_dev Dask-CuDF backend that simplifies programming while enabling performant preprocessing that scales for #RecSys pipelines and better integration with the RAPIDS ecosystem. |0
+@James Bradbury If you missed it, our JAX/Cloud TPU talk is now up! We announced a new way to access Cloud TPUs, allowing direct SSH access and custom code on the TPU hosts, and gave FOUR demos showing how this supercharges JAX! Video:  Slides: |0
+@Jeremy Howard I'll be doing a guest appearance on Roborace tomorrow! If you haven't seen it, Roborace is an autonomous race car competition. Racing starts at 7am Eastern (noon GMT). |0
+@Google Cloud We're offering no-cost learning until the end of 2020 to help you build in-demand cloud skills . Read on for opportunities to further your knowledge of #AI, #Kubernetes, #multicloud, and more ↓ |0
+@Sabrina J. Mielke Just renewed my @StandardNotes subscription for 5 years (wow, weird to say that) after using it for 1 year, since for me it's the *perfect*... - all-platform - encrypted sync - pretty &amp; snappy UI - reasonably open - plain text, rich text, and spreadsheets ...note-taking app! |0
+@Hamel Husain Earlier this month, @github promoted nbdev ( As a follow up to that, here is a  that shows how nbdev works with Codespaces.  |0
+@Geoffrey Hinton Finding the natural parts of an object and their intrinsic coordinate frames without supervision is a crucial step in learning to parse images into part-whole hierarchies. If we start with point clouds, we can do it! |0
+@Facebook AI How do current self-supervised learning approaches achieve strong results? Join us as we demystify self-supervised learning techniques in image recognition, today 12/10 at #NeurIPS2020 9am PST. |0
+@Santiago Data Visualization is an underrated skill.  Your data is telling a story. Surfacing and presenting it to the world is an amazing skill. If you are looking for ways to improve, here you have 14 different tutorials right from @realpython's website:  |0
+@O'Reilly Media What #technical skill knowledge did the global workforce look to increase in 2020? To find out, we took a look back on our most popular online training courses in 2020. Find out our top 20 here: |0
+@William Falcon Excited to release @PyTorchLightnin 1.1.0. Built in collaboration with @facebookai you can now train any NLP Transformer modek, Swav (self-supervised), Speech or Image GPU with 60% less memory! With ZERO code changes! Read more here:  |0
+@Zak Jost I published a new video (and code) where I implement Graph Convolutional Networks from scratch using only NumPy. I learned a lot from this process and hope you get some value out of it too! |0
+@Data Elixir Introducing Comet Interactive Reports, ML Templates &amp; More via @Cometml  #MachineLearning |0
+@Papers with Code  Papers with Code is expanding to more sciences! Today we launch new sites for physics, maths, CS, statistics and astronomy. You can use these sites to sync your code to show on arXiv. Explore our portal here: |0
+@daily.dev Microlink 3.0 — Browser as API by @kikobeats via @producthunt #tech #developertools #apis #productivity |0
+@PyTorch Graphcore announced its first production release of PyTorch for the IPU - combining the performance of the Graphcore IPU-M2000 system and the developer-ready accessibility of PyTorch. |0
+@Alfredo Canziani Okay, I think I've found the *holy grail*!  I currently am working with 420 interpreters, and yeah, I'm losing track about the last time I talk to each of them. In this video, @khemaridh shows how to get @NotionHQ to help you stay on top of things. #GTD   |0
+@Thomas Wolf If you have to watch *one* video from NeurIPS, it should be the keynote of Charles Isbell It's not a keynote, it's a full movie (with special effects!) on AI, NLP, CV, bias and the broader &amp; wider view on what we do and why we do it! It's public here   |0
+@DeepMind Join our team at the #NeurIPS2020 JAX Ecosystem meet up to learn more about JAX and why it's effective for research in reinforcement learning, GANs, meta-gradients and more. Today at 11am PST / 2pm ET/ 7pm GMT  (calendar invite) |0
+@AI Fast Track Such a pleasure to work with so many smart and highly motivated people like @Fra_Pochettito build such an awesome framework: IceVision We welcome everybody regardless of their background. Come and see for yourself! Forum:  Docs:  |0
+@AK Parameter Efficient Multimodal Transformers for Video Representation Learning pdf:  abs:  |0
+@Dr. Anna Jobin If a company cannot even pretend to care about its internal \"Ethical AI\" co-leader, how much do you think they care about the rest of us? In the wake of Google's outing of @timnitgebru, my two cents on #AIethics #BigTech #IStandWithTimnit: |0
+@TensorFlow  Meet our TensorFlow AI Service Partners Our TensorFlow AI Service Partners are AI/ML practitioners who have experience helping businesses implement AI/ML and TensorFlow-based solutions. Learn more ↓ |0
+@Piotr Ch My little side-project is now making around $2500/mo MRR . Here's: - what I learned - what went well - what didn't go well ...plus some bits of advice if you want to launch your own paid product. (thread)  /cc @IndieHackers @levelsio @csallen @patio11|0
+@Pedro Domingos Gradient descent is a local optimum that we've fallen into: |0
+@Nicholas Vadivelu #JAX now has direct access to the Cloud TPU hosts (instead of through a VM &amp; RPC) !!!! Great work by the JAX team  @theshawwn finally full access to the powerful host CPU. |0
+@Stephen Kuenzli Excited to see 97 Things Every Cloud Engineer Should Know launch!  Thanks @editingemily, @nathenharvey, and @OReillyMedia for assembling this work and letting me contribute on Cloud account architecture and AWS security policies.  |0
+@Jose Camacho-Collados Given the current situation, @tpilehvar and I have decided to openly release the first draft of our book “Embeddings in Natural Language Processing”. We also thank @MorganClaypool for agreeing to this early draft release. Link:  |0
+@Junior Rojas The @NeurIPSConf demo session will run again tomorrow Wed 9. Join us to learn more about \"Probing Embedding Spaces in Deep Neural Networks\" and many other demos!  |0
+@Martin Henze (Heads or Tails) Kaggle Notebooks: Hidden Gems - Vol. 31 A weekly series aspiring to showcase underrated Kaggle Notebooks along with the diversity and creativity of our community. Check it out on @Kaggle:  #KaggleHiddenGems|0
+@Santiago A free 7-hour TensorFlow 2.0 course that's packed with everything you need to get started! This is the type of resource that will give you super-powers in a week with just a single hour per day! Link:  Did I mention is free? |0
+@Hector Yee Just found out about this recently a new research ml friendly language |0
+@daily.dev Migrate to typescript - the advance guide via @thepracticaldev #migrate #nodejs #javascript #typescript |0
+@Graham Neubig We have finished uploading our 23 class videos on Multilingual NLP:  Including two really great guest lectures: NLP for Indigenous Languages (by Pat Littell, CNRC):  Universal NMT (by Orhan Firat, Google):  |0
+@Even Oldridge Excited to share my latest blog which focuses on why recommender systems aren't faster on GPU and how you can fix that. TLDR; RecSys models are different from NLP and CV and require specialized dataloaders to get data to the GPU efficiently. |0
+@Data Elixir Writing a technical book: from idea to print by @SRobTweets |0
+@O'Reilly Media [NEW RELEASE] Kubeflow Operations Guide -- By @jpatanooga , Michael Katzenellenbogen, @Austin_P_Harris -- In today’s cloud-based world, this book is ideal for any team planning to build machine learning applications.  #OReillyExperts #NewBook #Kubeflow |0
+@Marko  Denic GitHub repositories to improve your programming skills. |0
+@daily.dev 8 ways to make money as a developer via @youtube |0
+@Sunil Kumar Do you want to learn React the right way? These two are the best paid courses I've come across recently and provide a lot of value for the price you pay. If you want to learn React from fundamentals to advanced, you should check out these! |0
+@AK BoxInst: High-Performance Instance Segmentation with Box Annotations pdf:  abs:  github:  |0
+@Carlos Outeiral Interested in AlphaFold 2? Read my piece on how good it actually is, how it works, and what it means for the scientific community and those of us working in computational biology: |0
+@Hamel Husain This is pretty cool |0
+@Jeremy Howard Wow this could be huge |0
+@Data Elixir 2020’s Top AI &amp; Machine Learning Research Papers via @topbots |0
+@Jeremy Howard Very interesting to see that @github is using Powershell on Linux to help configure their Actions runners. (Powershell is by far the best shell scripting language I've ever used. Except perhaps Perl.)  |0
+@abhishek Come, write your machine learning/ data science articles for free on  and let others read it for free too! P.S. all articles are reviewed!!!|0
+@Ben Hamner You can now use Tensorflow Cloud to seamlessly move a short-running Tensorflow example on Kaggle Notebooks to a full training job on GCP, and then download and consume the full model or deploy it to make predictions from a hosted service |0
+@daily.dev Design Trends in 2021 that will cause Revolution  by @saviomartin7 via @hashnode #nodejs #react #development #javascript #css |0
+@Alisher Abdulkhaev I am going to give a speech on \"Rethinking Object Detection\" at @odsc APAC Virtual Conference!  Link:   9th December at 12:35 pm, JST (check your local time zone:  Join us to discuss the object detection!  @__MLT__ #AI #ML |0
+@Jeremy Howard Nice job Google, you've pissed off the President of the nation's premier civil rights law organization. |0
+@O'Reilly Media #ICYMI - O’Reilly author content is now on @Medium! Curated by O’Reilly, experts and authors provide advice, insight, viewpoints, and experiences on all things #tech. Check it out: |0
+@O'Reilly Media [NEW RELEASE] AI and Machine Learning for Coders -- Most books on machine learning begin with a daunting amount of advanced math. This guide by @lmoroney is built on practical lessons that let you work directly with the code.  #OReillyExperts #NewBook |0
+@Max Woolf aitextgen 0.3.0 is out, with fixes for Transformers 4.0.0 and pytorch-lightning 1.0.0 support. The docs/README need a copy pass, but the notebooks should now work without error.  |0
+@Hamel Husain (1/9) Do you maintain a static site (i.e. blog, docs) that contains tons of links? Tired of broken links?   We created fastlinkcheck, a tool that validates links for static sites and intelligently accounts for local links.   |0
+@Emily Robinson If you're looking to add to your tech bookshelf, everything at @ManningBooks is 50% off today, including @skyetetra and my book Build a Career in Data Science!  |0
+@Jeremy Howard We talk a lot in our courses and book about the importance of thinking carefully about setting and decaying epsilon during training. Great to see a blog post about this topic. |0
+@Ines Montani   People of Perth: @honnibal &amp; I will be joining the Perth Machine Learning Meetup this Thursday to talk about @spacy_io v3! It's an in-person event (!) with limited seats, so if you're around, come say hi  There's also a live stream. Details: |0
+@Paolo Galeone Deploy and Train #TensorFlow models in #Go: Human Activity Recognition case study In the article, I show how to deploy a @TensorFlow model using @golang and how a well-defined tf.Module allows exporting as a graph even a training loop - to use in Go! |0
+@Zach Mueller I spent the day recreating @abhi1thakur's Tez kernel 1:1 with @fastdotai. Some noteable highlights include using albumentations for both train and validation transforms as well as recreating @PyTorch 's CosineAnnealingWarmRestarts using fit_flat_cos  |0
+@Andrej Karpathy Was randomly reminded of my (now very old) loss functions Tumblr and got a good laugh out of it again |0
+@Josh Tobin Looking forward to talking about testing ML models in a few weeks @PyDataMTL |0
+@elvis  NLP-progress  This website (developed by @seb_ruder) provides useful information and resources for tracking the progress of many different kinds of common NLP tasks.  |0
+@Soheil Feizi Two great lectures by @asalam_91 , a PhD student at @umdcs on: - LSTMs and Transformers:  - Deep Learning Interpretation: |0
+@Kosta Derpanis Vladlen Koltun loves ConvNets but ... Great talk by Vladlen Koltun questioning the status quo! #CVPR2020 DeepVision Workshop:  |0
+@Hugging Face Any JAX/Flax lovers out there? Ever wanted to use  Transformers with all the awesome features of JAX? Well you're in luck!  We've worked with the Google Flax team to enable support for BERT and RoBERTa!   Check it out   |0
+@Emil Wallner *** It’s LIVE *** I've made an index with 340 creative Machine Learning projects! More coming every week!! ------------------------         ------------------------ (*ω) YAY!! |0
+@David Miranda Today's the culmination of two years of hard work — Remake’s launch! Do want to use HTML &amp; CSS to build fully-functional web apps? Remake lets you do that! Instant user accounts Data saving baked in Create features with HTML Web apps in minutes |0
+@Connected Papers Connected Papers with Code! Today we are partnering with the awesome @paperswithcode to add links to code implementations for all papers that have them. Sharing code should become a true industry standard when publishing papers in software sciences.  |0
+@Astronomer Today, we are *thrilled* to announce @marclambertiml's much-awaited Airflow 2.0 YouTube series  Marc has prepared 6 engaging (read: addicting) walk-throughs of the biggest features in @ApacheAirflow 2.0. Trust us, you won't want to miss these.  |0
+@Christian S. Perone I spent many long nights preparing this material for a visual introduction to optimization in Deep Learning, ranging from 1st-order methods, 2nd-order and Natural Gradient (and approximations of it such as K-FAC). Sharing the PDF (easier to download):  |0
+@Fil Recently people have started twitting how much they enjoy #observablehq and what they do with it. I tried to cut down my contribution to 140 chars but it wouldn’t fit:  |0
+@Jan Willem Tulp wow, 650+ notebooks! Lots to explore here! |0
+@Johannes Hagemann I’ve become such a big fan of the @lexfridman podcast, that I created a website with all the book recommendations of his guests.  You can check it out here: |0
+@Bojan Tunguz Very interesting. One unexpected consequence of the tech worker exodus from the Silicon Valley. Startups in the heartland are seeing something they never have before: résumés from Silicon Valley employees  via @WSJ|0
+@Santiago Here is one of the best resources I've found to learn some of the math behind Machine Learning! And it's free! \"Introduction to Linear Algebra for Applied Machine Learning with Python\" via @CodeBug88.  Check it out:  |0
+@Sanyam Bhutani I've had the privilege to interview many @kaggle legends and heroes of mine.  Here is the playlist consisting of 55+ Episodes of Chai with Kagglers   |0
+@Jan Willem Tulp NEW Together with a huge team of amazing people (@worldbankdata + @elbertwang1 @iarynam and @maartenzam), we have worked for months on the release of @Worldbank #SDGAtlas  |0
+@Data Elixir Understanding RL Vision via @distillpub  #DeepLearning|0
+@abhishek My latest tutorial is all about creating your own, fully-customizable trainer for PyTorch. Check it out here:  It's also an intro to Tez, a simple, yet efficient library that you can use to train PyTorch models fasterrrr..... |0
+@Sanyam Bhutani Fastchai with @__MLT__  We've started our Kaggle based learning!  If you missed the first meet, use this wiki to join the sprint:  |0
+@Ross Wightman JAX + EfficientNet + TPU v3 is live. Woo! That v3-8 packs a lot of punch relative to 8 x V100 when you compare the $/HR.|0
+@Santiago I've been a Machine Learning Engineer for 5+ years. I've worked in real, world-changing applications that use AI/ML to change people's lives. I don't have all the answers, but I'm happy to share what I know. Ask me anything   I'll live-stream the answers later today!|0
+@Leslie Smith Check out my new paper \"FROST: Faster and more Robust One-shot Semi-supervised Training\" at  FROST is cool and it is the most practical method for one-shot semi-supervised training.|0
+@Santiago Everything I know about great Software Developers. |0
+@Alyssa X The most powerful screen recorder for Chrome  Screenity is an open source recorder &amp; annotation tool  Draw, add text, arrows, emphasize your cursor, use push to talk, edit your recordings, &amp; more - all for free.  @github    |0
+@Josh Tobin Really excited to teach a refreshed &amp; updated Full Stack Deep Learning this Spring to undergrads at Berkeley. We have lots of new content this time around -- hope to see many of you in the online version! |0
+@Sasha Rush These tutorial slides on \"High Perf NLP\" are really impressive. Every slide is current to the minute. Amazing set of diagrams.  (@gabriel_ilharco @Tim_Dettmers @IuliaTurc @kentonctlee Felipe Ferreira Cesar Ilharco) |0
+@hishnash @algo_diver @bryanlimy @TensorFlow @Apple No don't try coding python in xcode.... please don't! just suggesting using the profiler to inspect the gpu activity. (the GPU debugging in macs is top notch)|0
+@Krishna Murthy Today we release gradslam - automagically differentiable SLAM. Run dense 3D reconstruction in @PyTorch! And, it's fully differentiable :) Co-led w/ @S_Saryazdi, ably supported by @mautkiungli @duckietown_coo Webage:  Paper:  |0
+@Joel  Part of our new site that we are launching this year is collaborating and paying folks to write how-to articles, tutorials, and guides  If you write for web developers, check it out  |0
+@TensorFlow  Accelerating TensorFlow 2 performance on Mac  @Apple’s new Mac-optimized TensorFlow 2.4 fork lets you speed up training on Macs, resulting in up to 7x faster performance on platforms with the new M1 chip! Learn how ↓ |0
+@Matthew Honnibal I work at  we make @spacy_io and  I don't watch lectures, but Ng's \"machine learning yearning\" book is good. I learned neural networks from @michael_nielsen's book:  |0
+@Jeremy Howard I believe that anyone writing network/web code will find their work more fun and easier if they deeply understand network protocols. And it's not that hard - they're plain text! This is a terrific series to start with, especially if you use Python.  |0
+@Data Elixir Comparing Data Version Control Tools by @Guy_T_Sky |0
+@Kelsey Hightower I'm looking \"foreword\" to this one. Great job @wietsevenema and the @oreillymedia team working behind the scenes. |0
+@Goku Mohandas The first few lessons of @madewithml’s Applied ML in Production course are out!  Product - Objective - Solution - Evaluation - Iteration  Data - Annotation + more soon!  Details:   Code:   Videos:  |0
+@Rohan Rao #askvopani 99 Q: What's your view on Netflix's The Queen's Gambit? - BA If you like both chess &amp; films, you'd enjoy it. If you like either chess or films, you'd enjoy it. If you like neither chess nor films, you'd enjoy it. |0
+@Jay Alammar New blog post translations! Thanks to the awesome translators! Le transformer illustré  BERT, ELMo, et cie, illustrés  Guide visuel et interactif des bases des réseaux neuronaux |0
+@Jonathan Edwards \"microservices deathstar\" |0
+@Data Elixir Don’t Forget About Associative Memories via @gradientpub  #DeepLearning|0
+@Hamel Husain This is cool, wonder if I should enable this by default? |0
+@İlke Demir Are you trying to visualize your deep network just 2 days before the #CVPR2021 deadline? Here are some pretty alternatives to boring tensorboard graphs. (1/n)|0
+@mtszkw LR Finder in @PyTorchLightnin  If you missed the post about PyTorch Lightning and its LR finder, here it is. I described how the learning rate range test works and how to use it with Lightning. Enjoy! |0
+@rishabh  Hey  Go check out this amazing collection of notes on Deep Learning by @alfcnz and @ylecun  Lots of funky diagrams, intuitive equations, and concise explanations that span the basic, intermediate, and advanced concepts  Definitely worth reading :D|0
+@Kosta Derpanis OBS with green screen test #1 (no audio)  |0
+@AI Fast Track Happy to introduce a feature unique to IceVision: auto-detecting and auto-fixing of invalid data  This will dramatically reduce your time spent hunting dataset errors, and  jump-start you to training your model: Less time in data wrestling, and more fun tweaking your model |0
+@Lavanya Introducing scriptable alerts! Create customizable alerts, triggered from Python, sent to you via Slack or email.  Colab →  Know when your models crashes, performance drops, GPU usage spikes, gradients explode and more! #deeplearning #machinelearning |0
+@Mike Schroepfer Joëlle Pineau, Managing Director of Facebook AI Research: “For the last few years, she has been the driving force behind a change in how AI research is published”  Great article - Joelle is pushing the whole industry towards open and reproducible research|0
+@Alexander D'Amour NEW from a big collaboration at Google: Underspecification Presents Challenges for Credibility in Modern Machine Learning Explores a common failure mode when applying ML to real-world problems.  1/14  |0
+@DataMuni Have you started writing on our platform yet? |0
+@Thomas Wolf Pretty neat how you can now just clone a model and use it directly in transformers! Impressive work @julien_c and @pierrci  |0
+@Rong Lu We just released the new open sourced Jupyter extension to bring the power of @ProjectJupyter into @code! It comes with @pythonvscode for Python notebooks, but can also be installed standalone to work with other language kernels. Check it out  |0
+@Steve Stewart-Williams 3D map of US COVID cases, March 1st to November 10. Watch till end.  Source:  |0
+@Kirk Borne 130-page #MachineLearning cheat sheet — classical equations &amp; diagrams, to assist in preparation for job interviews &amp; quick recall of #ML concepts:  (PDF + LaTeX source) ——— #BigData #DataScience #AI #DataMining #DeepLearning #Algorithms #AppliedMathematics |0
+@Ayushi Rawat  How to Showcase Soft Skills on Your Resume and why are they important? (Here's all you need to know about your Soft Skills and how they can help you land your next Job)  A thread |0
+@ Paige Bailey @ 127.0.0.1  #BLM  The #PyData array API standard repo is now public, the standard doc is published, and the announcement blog post is up: Blog post:  Array API standard document:  Repo:  Please feel free to add comments!|0
+@abhishek  Martin Henze's (astrophysicist, 1st kaggle kernel gm) EDA and visualization kernels are impeccable! He will come LIVE to answer all your questions about EDA on my channel in Talks#14. This Friday, the 13th ;) Calendar:  Youtube:  |0
+@Yannis Assael Here is our latest work on automated video translation  @yangyi02, @BrendanShilling, @MiaosenWang, Wendi Liu, @yutianc, Yu Zhang, Eren Sezener, Luis C. Cobo, @notmisha, @yusufaytar, @NandoDF|0
+@ Paige Bailey @ 127.0.0.1  #BLM  Ahh, this is so nice! Did you know that you can view revision history (similar to the history in @GoogleDocs, @GoogleSheets, etc.) in @GoogleColab? The \"...\" also allows you to review the change on @Github, or to revert.  File  Revision History ⏱ |0
+@Hamel Husain Have you ever wondered how @fastdotai: - builds so many things? - quickly integrates new things? - how they maintain all of it? The secret sauce: : nbdev. We've updated the docs to make it even easier for you to get started.   |0
+@abhishek DataMuni is a FREE platform for no non-sense, to-the-point, peer-reviewed articles and tutorials about everything Machine Learning and Data Science. The platform is now open for all. Go ahead and write your first article!!! Check it out here:  |0
+@neptune.ai If you're training deep learning models, @fastdotai should definitely be your tool.  And if you want to additionally monitor your training (believe us, you should want that), try Neptune-fastai integration. It's just one additional callback.  Docs:  |0
+@Santiago Of course, I said YES! Francesco (@FrancescoCiull4) has been interviewing a parade of amazing people from our Tech Community. And he asked me!  If you wanna see me rambling, here is the video.  (But better yet, check all the other interviews!) |0
+@Santiago TensorFlow 2.4.0-rc0 is out! Here are the top 3 new features that have me excited: Major refactoring to Keras Functional API tf.experimental.numpy module Asynchronous training of Keras models Full release notes:  |0
+@abhishek  New NVIDIA A100 GPUs are now available on Amazon AWS!!! p4d.24xlarge: 96 cores, 1 TB RAM and 8 A100 GPUs!!! Check it out here:  #machinelearning #deeplearning #ai #artificialintelligence #nvidia #datascience |0
+@Amit Chaudhary I use this trick to search youtube videos that mention a text in their subtitle. For example, to jump to a video section that explains \"DropConnect\":  It's very useful when a regular youtube search doesn't return relevant results. |0
+@Rose Excited to share gym-cooking, a *novel multi-agent Gym environment*:  Based on recent work ( #CogSci2020 computational modeling prize winner) with amazing collaborators Sarah Wu, James Evans, Josh Tenenbaum, David Parkes, @maxkw! |0
+@PyTorch We're excited to announce our first PyTorch Developer Day starting 8 AM on November 12, 2020 PST. Learn more:   #PTD2 |0
+@Nirbhay Vashisht 3. Time to BUILD  is THE BEST free guide (a collection of tutorials) where you are going to build simple apps using just HTML, CSS and JavaScript. 30 Days 30 Videos. With each video you'll learn something new about the language.|0
+@Niall O'Hara Nice introduction to recent advances in language models &amp; transfer learning in NLP by @Thom_Wolf (@huggingface):  |0
+@ A recipe on how to deploy FastAI trained pyTorch model in TorchServe, and more.  @fastdotai @PyTorch @torchserve|0
+@O'Reilly Media [NEW RELEASE] Kubeflow for Machine Learning -- Learn how to use #Kubeflow to train and serve your machine learning models on top of #Kubernetes in the cloud or in a development environment on-premises.  #OReillyExperts #NewBook |0
+@Moritz Stefaner  Excited to launch: ~ WAVES OF INTEREST ~ Tracing Google Search Interest in US Election Years   w/ @recifs @destrysibley @googlenewsinit @albertocairo @smfrogers   |0
+@Hamel Husain This is the (respectful) rebuttal of the famous “I hate notebooks” talk by Joel Grus Very educational to see a healthy ongoing debate like this  |0
+@O'Reilly Media Do you run a meetup, professional association, tech blog, or podcast? @OReillyMedia has a program for you and we send free books. Join here |0
+@Bojan Tunguz Jetson emulator y'all! |0
+@Bojan Tunguz Wow, this is huge!  \"Train your TensorFlow model on Google Cloud using TensorFlow Cloud\" from the TensorFlow Blog |0
+@Chip Huyen I love teaching and I’ve always wanted to come back to Stanford to teach. After 2 years with the help of many people, it's happening! I’ll be teaching Machine Learning Systems Design in Jan '21. It'll be online. Syllabus is below. Feedback appreciated! |0
+@Ben Hamner How Kaggle makes GPUs accessible to 5 million data scientists - nice post by my colleague @MeganRisdal |0
+@Matthew Winn Lecture series on speech acoustics now shared with you:  Sequence: 1-Intro 2-Timing categories (Envelope,periodicity,TFS) 3-Viewing the waveform, spectrum, spectrogram 4-Source-filter model 5-Formants 6-Consonants 7-VOT 8-Gender 9-Ant-Man's voice|0
+@Santiago 33 applications of Machine Learning, 3 different categories. (And there are so many more it's not even funny!) It doesn't matter what you enjoy in life. There's something here for you! |0
+@DVC  We're hiring a technical community manager!  Do you have data science or open source software skills AND love building communities? Apply now! |0
+@Robin Cole Check out IceVision object detection framework and share the word, been using it in my fire detection project and makes life simpler! |0
+@Andrew Ng I wrote about LandingLens and its unique features in The Batch. AI has the problem of needing customization, which is why we need verticalized platforms like LandingLens to empower manufacturing &amp; other domain experts to build and deploy AI models.  |0
+@Ross Wightman Pretrained weights for my 'small', 16x16 patch variant, 48.8M params are now up. Trained on ImageNet-1k, 77.42 top-1. I'll have some weights for the paper base model around 79 top-1 soon. ImageNet-21k is ready for a big run, but might be awhile before I have resources free|0
+@Jan Willem Tulp attending #ieeevis as a regular attendee is virtual and free this year. #dataviz Just so you know :) |0
+@Ian Hensel I spent 1 hour and used @Rosebud_AI's @tokkingheads to animate characters in a (very short) clip. warning! I am not a voice actor... be prepared for some cringe.   Read about my process here:  Share your stories! #GANstories |0
+@Open Networking Foundation Check out @IncNetsia's on-demand presentation “SEBA in Production: Lessons Learned” which discusses their journey with @TurkTelekom on the first commercial SEBA deployment. #broadband #SEBA #multicast #opensource  |0
+@Andrew Trask If you're learning AI/ML/DL - one of the hardest pieces is knowing what projects to try next! This is a golden link Over 200 different tutorials across nearly every major branch of Machine Learning!!! #100DaysOfMLCode #100DaysOfCode |0
+@Shruti Bhosale Happy to be part of the team that worked on M2M-100, an MMT model that is trained to translate between any pair of 100 languages without relying on translating to and from English! Paper:  Blog:  Code:  |0
+@algoritmic blokdots is a simple to use software to build interactive hardware prototypes without writing a line of code  |0
+@Rohan Rao #askvopani 70 Q: What are some alternatives to Kaggle? - AJ * AnalyticsVidhya * Crowdanalytix (sucks though) * DrivenData * HackerRank * Numerai * OpenML * Zindi There are more. But I haven't found them as extensive, active and useful as Kaggle.|0
+@Made With ML  Today's trending post is tldrstory: a framework for understanding headlines and stories by @DavidMezzetti of @neumll. Applies zero-shot labeling over text and enables text similarity search. Powered by @streamlit, FastAPI (@tiangolo) and @huggingface. |0
+@Jay Alammar How does BERT answer questions? In this explorable, @betty_v_a shows how the layers of BERT successively mutate the representations of input words (question and context) so the correct answer (\"bathroom\") ends up isolated enough for the model to pick   |0
+@Jeremy Howard I showed my daughter how to color in a number-grid to help her with her math, which she really liked. Now we've made one the same thing with code. I found @ProjectJupyter really nice for this - it just took a few minutes. Here's how I did it. 1/ |0
+@IEEE VIS Data-GIFs are popular online, which embed visual messages in short animation and are played in loops. New work shows rich examples and design suggestions by @shuxinhuan Aoyu Wu, @JunxiuT @benjbach Yingcai Wu, Huamin Qu. See our website:  #ieeevis |0
+@raia hadsell Stats and summaries from the #NeurIPS2020 reviewing process, including answers to important q's: 'Were the desk-rejects accurate?' and 'What area has the best acceptance rate?' |0
+@Sunil Kumar Are you a developer and love using Github? This thread is for you. Here's a list of GitHub Browser Extensions to personalise your Github experience: |0
+@Amanda Silver #BlackLivesMatter #ShiftLeft We've gathered some of the best practices for using VS Code and GitHub together. Enjoy! |0
+@Suzana Ilić Interactive tools are great. We have collected a bunch more incl.  CNN Explainer  GANs in the Browser  ConvNet Playground  Activation Atlases  Initializing neural networks  Embedding Projector  OpenAI Microscope  and more  |0
+@Julien Chaumond I've been playing with @TheRealDAGsHub ( and @DVCorg and it's pretty neat  My pipeline is   This feels like a \"structured Weights&amp;Biases\", if it makes sense. Anyone tried it yet? |0
+@Facebook AI Today we are releasing research into the role of momentum in non-convex optimization. Our hope is that understanding how momentum functions can help us develop new and better optimization algorithms for training AI systems. |0
+@Bojan Tunguz Introduction to BERT by @sanigam |0
+@Charly Wargnier Heck! What a day it's been!   @Streamlit Sharing's out -&gt; 1-click deploy, free!   @Spacy_io V3's out. -&gt; Transformer-based pipelines + improved APIs!   The #Spacy_Streamlit's app's been updated -&gt; new V3 engine, revamped w. Flexi layouts!  You Legends. |0
+@Josh W. Comeau As some of y'all know, I've been coding hands-free for a while now. I'll be releasing a blog post about it soon, but here's a quick sneak peak! (Sound on plz! ) |0
+@Ayushi Rawat  Tips to become a better programmer, overcome the common problems beginners face and boost your learning process.  A thread |0
+@Sanyam Bhutani If you're looking for the best resources to prepare for ML interviews in 2020, Here's a wiki from the @fastdotai forums:  Also, all contributions are welcomed! |0

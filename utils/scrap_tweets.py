@@ -33,7 +33,7 @@ csv.register_dialect('twitter_dialect', delimiter='|', quoting=csv.QUOTE_NONE, e
 consumer_key=""
 consumer_secret=""
 
-access_token="-RLfv2XVHzfejeu8PKKayB2oUWNMNP2"
+access_token=""
 access_token_secret=""
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -43,6 +43,21 @@ api = tweepy.API(auth)
 
 public_tweets = api.user_timeline(user_id='algo_diver', count=1000, tweet_mode="extended")
 
+with open('twitter.csv', 'w') as csv_file:
+    writer = csv.writer(csv_file, dialect='twitter_dialect')
+    for page in range(1, 5):
+        public_tweets = api.user_timeline(user_id='algo_diver', count=200, tweet_mode="extended", page=page)
+
+        for tweet in public_tweets:
+            if hasattr(tweet, 'retweeted_status'):
+                author = "@" + deEmojify(tweet.retweeted_status.author.name)
+                result = author + " " + deEmojify(tweet.retweeted_status.full_text.replace("\n", " ").replace("  ", " ").strip())
+                result = result.replace("|", "&")
+                result = removeURLs(result)
+                print("- " + result)
+                print("--------------------------------------------------------------")
+                writer.writerow([result, '0'])
+"""
 with open('twitter.csv', 'w') as csv_file:
     writer = csv.writer(csv_file, dialect='twitter_dialect')
 #    writer.writerow(['text', 'category'])
@@ -56,3 +71,4 @@ with open('twitter.csv', 'w') as csv_file:
             print("- " + result)
             print("--------------------------------------------------------------")
             writer.writerow([result, '0'])
+"""
