@@ -62,8 +62,10 @@ def convert_csv_tfrecord(csv_path, tfrecord_path):
 
       with tf.io.TFRecordWriter(tfrecord_path) as writer:
          for row in csv_reader:
-            text = str.encode(row[0])
-            label = int(row[1])
+            text = row[1][1:]
+            text = text[:-1]
+            text = str.encode(text)
+            label = int(row[0])
             example = serialize_example(label, text)
             writer.write(example)
 

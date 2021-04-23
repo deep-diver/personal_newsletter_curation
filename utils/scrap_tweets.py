@@ -2,6 +2,9 @@ import tweepy
 import re
 import csv
 
+def keepOnlyOneSpace(text):
+    return re.sub(' +', ' ', text)
+
 def removeURLs(text):
     return re.sub(r"http\S+", "", text)
     
@@ -30,6 +33,14 @@ def deEmojify(text):
 
 csv.register_dialect('twitter_dialect', delimiter='|', quoting=csv.QUOTE_NONE, escapechar='\\')
 
+"""
+consumer_key=""
+consumer_secret=""
+
+access_token=""
+access_token_secret=""
+"""
+
 consumer_key=""
 consumer_secret=""
 
@@ -41,11 +52,9 @@ auth.set_access_token(access_token, access_token_secret)
 
 api = tweepy.API(auth)
 
-public_tweets = api.user_timeline(user_id='algo_diver', count=1000, tweet_mode="extended")
-
-with open('twitter.csv', 'w') as csv_file:
+with open('../assets/dataset/twitter.csv', 'w') as csv_file:
     writer = csv.writer(csv_file, dialect='twitter_dialect')
-    for page in range(1, 5):
+    for page in range(1, 10):
         public_tweets = api.user_timeline(user_id='algo_diver', count=200, tweet_mode="extended", page=page)
 
         for tweet in public_tweets:
@@ -54,11 +63,12 @@ with open('twitter.csv', 'w') as csv_file:
                 result = author + " " + deEmojify(tweet.retweeted_status.full_text.replace("\n", " ").replace("  ", " ").strip())
                 result = result.replace("|", "&")
                 result = removeURLs(result)
+                result = keepOnlyOneSpace(result)
                 print("- " + result)
                 print("--------------------------------------------------------------")
-                writer.writerow([result, '0'])
+                writer.writerow(['0', result])
 """
-with open('twitter.csv', 'w') as csv_file:
+with open('../assets/dataset/twitter.csv', 'w') as csv_file:
     writer = csv.writer(csv_file, dialect='twitter_dialect')
 #    writer.writerow(['text', 'category'])
 
@@ -70,5 +80,5 @@ with open('twitter.csv', 'w') as csv_file:
             result = removeURLs(result)
             print("- " + result)
             print("--------------------------------------------------------------")
-            writer.writerow([result, '0'])
+            writer.writerow(['0', result])
 """
