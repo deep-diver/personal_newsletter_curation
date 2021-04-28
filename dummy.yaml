@@ -1,0 +1,67 @@
+messages:
+  # researchs
+  - "SeqIO: Task-based datasets, preprocessing, and evaluation for sequence models."
+  - "Today we present a new approach for automated discovery of generalizable #ReinforcementLearning algorithms that evolves a population of loss functions — represented by computational graphs — over a set of simple training environments. Learn more at"
+  - "The NLP Cookbook: Modern Recipes for Transformer based Deep Learning Architectures"
+  # tutorials
+  - "While doing a CS degree I learned early on not to ignore math subjects."
+  - "First of the open source AutoML tutorial series published: "
+  - "Where is ZenML fitting in the crowded #MLOps landscape?"
+  # tooling
+  - "Opyrator - Turns your Python functions into microservices with web API and interactive GUI."
+  - "Now announcing fastdebug, a helpful little library for debugging your @PyTorch and @fastdotai code, including providing clearer errors and sanity checking:https://muellerzr.github.io/fastdebug/"
+  - "Today our machine learning and distributed computing teams, along with Google Brain, are releasing Launchpad, a system for building distributed machine learning algorithms. Visit http://dpmd.ai/launchpad for the code, examples, and some distributed RL agents!"
+  # others
+  - "Microsoft is collaborating with @Coursera to bring on-demand #Azure content to roughly 80 million users. Find courses on Azure Fundamentals, AI Fundamentals, and Data Fundamentals. Learn more: https://msft.it/6015V99g5"
+  - "We’re excited to launch Fully Connected, v2 of our ML community today!"
+
+categories:
+  # researchs
+  - "research"
+  - "research"
+  - "research"
+  # tutorials
+  - "tutorial"
+  - "tutorial"
+  - "tutorial"
+  # tooling
+  - "tooling"
+  - "tooling"
+  - "tooling"
+  # others
+  - "others"
+  - "others"
+
+links:
+  # researchs
+  - "https://twitter.com/arankomatsuzaki/status/1386832967868186629"
+  - "https://twitter.com/GoogleAI/status/1385324565589491712"
+  - "https://twitter.com/omarsar0/status/1385192526865387526"
+  # tutorials
+  - "https://twitter.com/omarsar0/status/1387367821198430211"
+  - "https://twitter.com/vopani/status/1387313824579997701"
+  - "https://twitter.com/zenml_io/status/1385241650465755144"
+  # tooling
+  - "https://twitter.com/philipvollet/status/1385493727112802305"
+  - "https://twitter.com/TheZachMueller/status/1385393592060063748"
+  - "https://twitter.com/DeepMind/status/1385254090192588804"
+  # others
+  - "https://twitter.com/Azure/status/1386697859316260867"
+  - "https://twitter.com/weights_biases/status/1384903029695127554"
+
+authors:
+  # researchs
+  - "@arankomatsuzaki"
+  - "@GoogleAI"
+  - "@omarsar0"
+  # tutorials
+  - "@omarsar0"
+  - "@vopani"
+  - "@zenml_io"
+  # tooling
+  - "@philipvollet"
+  - "@TheZachMueller"
+  - "@DeepMind"
+  # others
+  - "@Azure"
+  - "@weights_biases"

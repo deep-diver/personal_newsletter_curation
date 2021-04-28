@@ -33,19 +33,11 @@ def deEmojify(text):
 
 csv.register_dialect('twitter_dialect', delimiter='|', quoting=csv.QUOTE_NONE, escapechar='\\')
 
-"""
-consumer_key=""
-consumer_secret=""
+consumer_key="fjGzV3SEMI68A5B3zKgeXomgi"
+consumer_secret="DU4UncJVoHBgDtT1YWaKcyNqpiUeBY6SZEnhzLH7XeNQ50K3Xk"
 
-access_token=""
-access_token_secret=""
-"""
-
-consumer_key=""
-consumer_secret=""
-
-access_token=""
-access_token_secret=""
+access_token="1026989978599940101-SGqJ9GF7SdWHQHuJeqU3o0CjF2rACb"
+access_token_secret="yOlstMx5tDx5PLOSQnJjahVY6ncTSnoMbfzqcAz8m4YTz"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
@@ -66,7 +58,7 @@ with open('../assets/dataset/twitter.csv', 'w') as csv_file:
                 result = keepOnlyOneSpace(result)
                 print("- " + result)
                 print("--------------------------------------------------------------")
-                writer.writerow(['0', result])
+                writer.writerow([result])
 """
 with open('../assets/dataset/twitter.csv', 'w') as csv_file:
     writer = csv.writer(csv_file, dialect='twitter_dialect')
