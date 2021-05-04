@@ -48,4 +48,10 @@ The second step is to build a machine learning pipeline via Google Cloud Platfor
 
 ![](https://github.com/deep-diver/personal_newsletter_curation/blob/main/assets/image/ai-pipeline-url-to-jupyter.png?raw=true)
 
+- You are all set up for interacting with AI Platform Pipeline via AI Platform Notebook. The only thing left is to run the actual `TFX` code. The JupyterLab doesn't have any files or folders, so lets create them first.
+
+- [ ] Please run the cells on the `template.ipynb` notebook sequentially from where you stopped until you encounter a cell containing `TFX CLI` which is `!tfx template copy ...`. When you run that cell, it will create template directories for you. The name of root directory is `my_pipeline`. If you navigate the subdirectories, you will see the directory tree structures like below.
+
+![](https://github.com/deep-diver/personal_newsletter_curation/blob/main/assets/image/create-tfx-template.png?raw=true)
+
 [BERT](https://github.com/tensorflow/workshops/blob/master/blog/TFX_Pipeline_for_Bert_Preprocessing.ipynb)
