@@ -27,3 +27,13 @@ The second step is to build a machine learning pipeline via Google Cloud Platfor
 - [ ] After spinning up the GKE Cluster successfully, you should install the NVIDIA GPU device drivers. [This guide](https://cloud.google.com/kubernetes-engine/docs/how-to/gpus#installing_drivers) explains how in more detail. In order to breifly give a how-to, you first connect to the GKE cluster via Cloud Shell. Then just run the `kubectl apply -f https://raw.githubusercontent.com/GoogleCloudPlatform/container-engine-accelerators/master/nvidia-driver-installer/cos/daemonset-preloaded.yaml` CLI in the shell.
 
 ![](https://github.com/deep-diver/personal_newsletter_curation/blob/main/assets/image/nvidia-driver-configuratin.png?raw=true)
+
+- Now we are ready to create a GCP AI Platform Pipeline. Actually, it is possible to create a GKE cluster on the go, but only the default configuration can be provided. In order to enable GPU node pool, the above steps are required. (*The reason why we need a GPU node pool is that BERT based model is too huge to be even evaluated with CPUs*). 
+
+- [ ] Simply click the `NEW INSTANCE` button on AI Platform Pipeline service, then it will bring you to the new page. Then clicke the `CONFIGURE` button on that new page.
+
+![](https://github.com/deep-diver/personal_newsletter_curation/blob/main/assets/image/ai-platform-pipeline-spinup.png?raw=true)
+
+- [ ] A new page called `Kubeflow Pipelines Overview` will be loaded. This is the page you can configure your pipeline. Just make sure the GKE cluster that we have just created is selected under `Cluster` menu. Then simply hit the `Deploy` button on the bottom. It will take few minutes to complete the pipeline creation step. 
+
+![](https://github.com/deep-diver/personal_newsletter_curation/blob/main/assets/image/kubeflow-pipeline-spinup.png?raw=true)
