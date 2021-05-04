@@ -25,7 +25,7 @@ You can find the fully working demo video clip [here](https://www.youtube.com/wa
 
 ## Brief steps to replicate this project
 
-Please follow [this additional document]() to replicate this project.
+Please follow [this additional document](https://github.com/deep-diver/personal_newsletter_curation/blob/main/steps.md) to replicate this project.
 
 ## Todo
 - [ ] Collect & Label text data from Twitter / Facebook
