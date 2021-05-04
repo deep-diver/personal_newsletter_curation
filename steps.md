@@ -40,4 +40,12 @@ The second step is to build a machine learning pipeline via Google Cloud Platfor
 
 ## 3. Run TFX Pipeline
 
+- [ ] The initial TFX Pipeline can be setup through AI Platform Notebook. In order to setup a notebook, open up the pipeline dashboard by clicking `OPEN PIPELINES DASHBOARD` button. When the dashboard page pops up, find `Open TF 2.1 Notebook` link. It says `TF 2.1`, but it supports further versions too. When clicking that link, it will bring you to a page for setting up a AI Platform Notebook instance. With the default setting, please click `CREATE` button at the bottom. It will take a couple of minutes to finish setting it up. On the popped up window(Ready to open notebook), you can click `OPEN` button, then it will redirect you to the JupyterLab page.
+
+![](https://github.com/deep-diver/personal_newsletter_curation/blob/main/assets/image/notebook-connect.png?raw=true)
+
+- [ ] Please run the cells on the `template.ipynb` notebook sequentially until you encounter a cell containing `ENDPOINT` variable to setup. You have to setup the `AI Platform Pipeline's Endpoint URL`, and you can find the URL easily by looking up the URL text box on the pipeline dashboard page. After setting `ENDPOINT` with an appropriate value, then hit run the cell. 
+
+![](https://github.com/deep-diver/personal_newsletter_curation/blob/main/assets/image/ai-pipeline-url-to-jupyter.png?raw=true)
+
 [BERT](https://github.com/tensorflow/workshops/blob/master/blog/TFX_Pipeline_for_Bert_Preprocessing.ipynb)
