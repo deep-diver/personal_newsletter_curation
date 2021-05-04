@@ -37,3 +37,7 @@ The second step is to build a machine learning pipeline via Google Cloud Platfor
 - [ ] A new page called `Kubeflow Pipelines Overview` will be loaded. This is the page you can configure your pipeline. Just make sure the GKE cluster that we have just created is selected under `Cluster` menu. Then simply hit the `Deploy` button on the bottom. It will take few minutes to complete the pipeline creation step. 
 
 ![](https://github.com/deep-diver/personal_newsletter_curation/blob/main/assets/image/kubeflow-pipeline-spinup.png?raw=true)
+
+## 3. Run TFX Pipeline
+
+[BERT](https://github.com/tensorflow/workshops/blob/master/blog/TFX_Pipeline_for_Bert_Preprocessing.ipynb)
