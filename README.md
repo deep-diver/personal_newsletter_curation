@@ -5,7 +5,7 @@ Today people use social networking platforms such as Facebook, Twitter, etc. to 
 
 However, the problem arises when they click the share/retweet button too many times. They will end up with a pile of information all around, and they might not even remember what each piece of information is about.
 
-![](./assets/image/overview.png)
+<img src="./assets/image/overview.png" height=500px/>
 
 ## How this project can help?
 The end product of this project collects all the posts from one's SNS wall (including personal note/shared/retweeted), then it will send a automatically curated periodic newsletter. 
@@ -15,11 +15,15 @@ The curation is a simple process. It will go through each post and classify them
 ## Architecture
 This project is designed to show how to build End-to-End Machine Learning pipeline on Google Cloud Platform. 
 
-![](./assets/image/architecture_v2.png)
+<img src="./assets/image/architecture_v2.png" height=500px/>
 
-## TFX pipeline on AI Platform Pipeline(kubeflow)
+## Screenshot
 
-![](assets/image/kubeflow-run.jpg)
+<img src="./assets/image/screenshot.png" height=500px/>
+
+## Brief steps to replicate this project
+
+Please follow [this additional document]() to replicate this project.
 
 ## Todo
 - [ ] Collect & Label text data from Twitter / Facebook
