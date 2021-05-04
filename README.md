@@ -21,6 +21,8 @@ This project is designed to show how to build End-to-End Machine Learning pipeli
 
 <img src="./assets/image/screenshot.png" height=500px/>
 
+You can find the fully working demo video clip [here](https://www.youtube.com/watch?v=PKK8jyHIb9k)
+
 ## Brief steps to replicate this project
 
 Please follow [this additional document]() to replicate this project.
