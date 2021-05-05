@@ -54,4 +54,8 @@ The second step is to build a machine learning pipeline via Google Cloud Platfor
 
 ![](https://github.com/deep-diver/personal_newsletter_curation/blob/main/assets/image/create-tfx-template.png?raw=true)
 
-[BERT](https://github.com/tensorflow/workshops/blob/master/blog/TFX_Pipeline_for_Bert_Preprocessing.ipynb)
+- [ ] The auto generated TFX Template is not about NLP. You need to replace the base code with appropriate pre-processing and modeling codes. In my case, I have just borrowed an example code for BERT written by Hannes Hapke. You can find the example notebook [here](https://github.com/tensorflow/workshops/blob/master/blog/TFX_Pipeline_for_Bert_Preprocessing.ipynb). However, the replaced version of the code base is already provided in this repo. Please refer to [this directory](https://github.com/deep-diver/personal_newsletter_curation/tree/main/pipeline/imdb_pipeline), and put it on your server.
+
+- Once you have fully cumtomized code base for NLP task, then it is time to run the TFX. In order to run the TFX pipeline, we need data. So please upload the TFRecord file from the step where you collected tweets via twitter API. The data should be uploaded in GCS bucket. 
+
+- [ ] Go to Cloud Storage service on GCP console. Then Click the `CREATE BUCKET` button to create a new bucket. Name the bucket name to `twitter-tfx-pipeline-(your initial)`. Just make sure your bucket name is globally unique. 
