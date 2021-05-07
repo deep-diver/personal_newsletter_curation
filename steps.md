@@ -59,3 +59,5 @@ The second step is to build a machine learning pipeline via Google Cloud Platfor
 - Once you have fully cumtomized code base for NLP task, then it is time to run the TFX. In order to run the TFX pipeline, we need data. So please upload the TFRecord file from the step where you collected tweets via twitter API. The data should be uploaded in GCS bucket. 
 
 - [ ] Go to Cloud Storage service on GCP console. Then Click the `CREATE BUCKET` button to create a new bucket. Name the bucket name to `twitter-tfx-pipeline-(your initial)`. Just make sure your bucket name is globally unique. 
+
+![](./assets/image/gcs-bucket-creation.png)
