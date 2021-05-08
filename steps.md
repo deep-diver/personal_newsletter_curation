@@ -14,45 +14,45 @@ The second step is to build a machine learning pipeline via Google Cloud Platfor
 - [ ] Before directly creating a GCP AI Platform Pipeline, you first need to spin up Kubernetes Cluster on  Google Kubernetes Engine(GKE). One thing to note is that you should include a GPU node pool with **one** GPU node configured. 
 - [ ] CPU node pool can be configured as you like. In my case, I have setup with a default type of VM with 2 nodes in it. The only thing to be careful is that you should check `Allow full access to all Cloud APIs` option under `NODE POOLS > CPU NODE POOL > Security` tab.
 
-![](https://github.com/deep-diver/personal_newsletter_curation/blob/main/assets/image/cpu-pool.png?raw=true)
+![](./assets/image/cpu-pool.png)
 
 - [ ] You should click `Add Node Pool` button to add additional node pool for GPU. GPU node pool is configures like below. The only thing to be careful(just like CPU node pool) is that you should check `Allow full access to all Cloud APIs` option under `NODE POOLS > GPU NODE POOL > Security` tab.
 
-![](https://github.com/deep-diver/personal_newsletter_curation/blob/main/assets/image/gpu-pool.png?raw=true)
+![](./assets/image/gpu-pool.png)
 
 - [ ] One last thing to configure before spinning up the GKE cluster is the options, `Enable legacy authorization` and `Enable basic authentication(deprecated)` under `CLUSTER > Security` tab
 
-![](https://github.com/deep-diver/personal_newsletter_curation/blob/main/assets/image/security-option.png?raw=true)
+![](./assets/image/security-option.png)
 
 - [ ] After spinning up the GKE Cluster successfully, you should install the NVIDIA GPU device drivers. [This guide](https://cloud.google.com/kubernetes-engine/docs/how-to/gpus#installing_drivers) explains how in more detail. In order to breifly give a how-to, you first connect to the GKE cluster via Cloud Shell. Then just run the `kubectl apply -f https://raw.githubusercontent.com/GoogleCloudPlatform/container-engine-accelerators/master/nvidia-driver-installer/cos/daemonset-preloaded.yaml` CLI in the shell.
 
-![](https://github.com/deep-diver/personal_newsletter_curation/blob/main/assets/image/nvidia-driver-configuratin.png?raw=true)
+![](./assets/image/nvidia-driver-configuratin.png)
 
 - Now we are ready to create a GCP AI Platform Pipeline. Actually, it is possible to create a GKE cluster on the go, but only the default configuration can be provided. In order to enable GPU node pool, the above steps are required. (*The reason why we need a GPU node pool is that BERT based model is too huge to be even evaluated with CPUs*). 
 
 - [ ] Simply click the `NEW INSTANCE` button on AI Platform Pipeline service, then it will bring you to the new page. Then clicke the `CONFIGURE` button on that new page.
 
-![](https://github.com/deep-diver/personal_newsletter_curation/blob/main/assets/image/ai-platform-pipeline-spinup.png?raw=true)
+![](./assets/image/ai-platform-pipeline-spinup.png)
 
 - [ ] A new page called `Kubeflow Pipelines Overview` will be loaded. This is the page you can configure your pipeline. Just make sure the GKE cluster that we have just created is selected under `Cluster` menu. Then simply hit the `Deploy` button on the bottom. It will take few minutes to complete the pipeline creation step. 
 
-![](https://github.com/deep-diver/personal_newsletter_curation/blob/main/assets/image/kubeflow-pipeline-spinup.png?raw=true)
+![](./assets/image/kubeflow-pipeline-spinup.png)
 
 ## 3. Run TFX Pipeline
 
 - [ ] The initial TFX Pipeline can be setup through AI Platform Notebook. In order to setup a notebook, open up the pipeline dashboard by clicking `OPEN PIPELINES DASHBOARD` button. When the dashboard page pops up, find `Open TF 2.1 Notebook` link. It says `TF 2.1`, but it supports further versions too. When clicking that link, it will bring you to a page for setting up a AI Platform Notebook instance. With the default setting, please click `CREATE` button at the bottom. It will take a couple of minutes to finish setting it up. On the popped up window(Ready to open notebook), you can click `OPEN` button, then it will redirect you to the JupyterLab page.
 
-![](https://github.com/deep-diver/personal_newsletter_curation/blob/main/assets/image/notebook-connect.png?raw=true)
+![](./assets/image/notebook-connect.png)
 
 - [ ] Please run the cells on the `template.ipynb` notebook sequentially until you encounter a cell containing `ENDPOINT` variable to setup. You have to setup the `AI Platform Pipeline's Endpoint URL`, and you can find the URL easily by looking up the URL text box on the pipeline dashboard page. After setting `ENDPOINT` with an appropriate value, then hit run the cell. 
 
-![](https://github.com/deep-diver/personal_newsletter_curation/blob/main/assets/image/ai-pipeline-url-to-jupyter.png?raw=true)
+![](./assets/image/ai-pipeline-url-to-jupyter.png)
 
 - You are all set up for interacting with AI Platform Pipeline via AI Platform Notebook. The only thing left is to run the actual `TFX` code. The JupyterLab doesn't have any files or folders, so lets create them first.
 
 - [ ] Please run the cells on the `template.ipynb` notebook sequentially from where you stopped until you encounter a cell containing `TFX CLI` which is `!tfx template copy ...`. When you run that cell, it will create template directories for you. The name of root directory is `my_pipeline`. If you navigate the subdirectories, you will see the directory tree structures like below.
 
-![](https://github.com/deep-diver/personal_newsletter_curation/blob/main/assets/image/create-tfx-template.png?raw=true)
+![](./assets/image/create-tfx-template.png)
 
 - [ ] The auto generated TFX Template is not about NLP. You need to replace the base code with appropriate pre-processing and modeling codes. In my case, I have just borrowed an example code for BERT written by Hannes Hapke. You can find the example notebook [here](https://github.com/tensorflow/workshops/blob/master/blog/TFX_Pipeline_for_Bert_Preprocessing.ipynb). However, the replaced version of the code base is already provided in this repo. Please refer to [this directory](https://github.com/deep-diver/personal_newsletter_curation/tree/main/pipeline/imdb_pipeline), and put it on your server.
 
@@ -60,4 +60,37 @@ The second step is to build a machine learning pipeline via Google Cloud Platfor
 
 - [ ] Go to Cloud Storage service on GCP console. Then Click the `CREATE BUCKET` button to create a new bucket. Name the bucket name to `twitter-tfx-pipeline-(your initial)`. Just make sure your bucket name is globally unique. 
 
+- [ ] When a new bucket is created, make a folder named `dataset`, and place the `TFRecord` in `dataset` folder by clicing `UPLOAD FILES` button.
+
 ![](./assets/image/gcs-bucket-creation.png)
+
+- [ ] Having the `TFRecord` in GCS, you need to reflect the changes of the location in the project's source code as well. There are two files to modify. One is `mypipeline/pipeline/configs.py`, and the other one is `mypipeline/kubeflow_runner.py`.
+
+```python
+# mypipeline/pipeline/configs.py
+GCS_BUCKET_NAME = #YOUR GCS PATH for the bucket
+
+# mypipeline/kubeflow_runner.py
+DATA_PATH = #YOUR GCS PATH for the dataset
+```
+
+- [ ] One last thing to run TFX Pipeline is to configure `KubeflowDagRunnerConfig` in order to let the running containers are seeking GPU node (or with some constraints). This step is necessary because your training/evaluation will take forever if you don't use GPU. The default settings are specified in `mypipeline/kubeflow_runner.py`, so you need to replace the default with the below.
+
+```diff
++ def request_gpu():
++   def _set_gpu(container_op):
++     container_op.set_gpu_limit(1)
++   return _set_gpu
+
++ pipeline_op_funcs = kubeflow_dag_runner.get_default_pipeline_operator_funcs()
++ pipeline_op_funcs.append(request_gpu())
+
+runner_config = kubeflow_dag_runner.KubeflowDagRunnerConfig(
++   pipeline_operator_funcs=pipeline_op_funcs, 
+    kubeflow_metadata_config=metadata_config, tfx_image=tfx_image)
+pod_labels = kubeflow_dag_runner.get_default_pod_labels()
+pod_labels.update({telemetry_utils.LABEL_KFP_SDK_ENV: 'tfx-template'})
+kubeflow_dag_runner.KubeflowDagRunner(
+    config=runner_config, pod_labels_to_attach=pod_labels
+).run(...
+```
