@@ -94,3 +94,23 @@ kubeflow_dag_runner.KubeflowDagRunner(
     config=runner_config, pod_labels_to_attach=pod_labels
 ).run(...
 ```
+
+- [ ] Change the TFX docker image version for GPU support
+
+- [ ] Run TFX Pipeline
+
+## 4. Configure TFX Pipeline for AI Platform Training/Serving
+
+- [ ] Uncomment AI Platform Training
+
+- [ ] Configure hardware spec for AI Platform Training
+
+- [ ] Uncomment AI Platform Serving
+
+## 5. Send out periodidc newsletters via GitHub Action and AI Platform Serving's end point
+
+- [ ] Code for quering predictions to the AI Platform Serving's end point. 
+
+- [ ] Code for periodic execution via GitHub Action.
+
+## 6. Hook up with Cloud Function for noticing the changes in data
