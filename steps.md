@@ -95,17 +95,44 @@ kubeflow_dag_runner.KubeflowDagRunner(
 ).run(...
 ```
 
-- [ ] Change the TFX docker image version for GPU support
+- [ ] Change the TFX docker image version for GPU support. Default TFX image version from the template is `0.26.0`, but this version doesn't support `tensorflow-gpu` and appropriate CUDA version by default. From `0.28.0`, GPU is officially supported, so we need to change accordingly. Go to the `Dockerfile` under `pipeline/`, then change the file like the below.
 
-- [ ] Run TFX Pipeline
+```diff
+- FROM tensorflow/tfx:0.26.0
++ FROM tensorflow/tfx:0.28.0
+WORKDIR /pipeline
+COPY ./ ./
+ENV PYTHONPATH="/pipeline:${PYTHONPATH}"
+```
+
+- [ ] Run TFX Pipeline. Now you are ready to run the TFX pipeline on AI Platform Pipeline. Please run the following cell from the notebook.
+
+```bash
+!tfx pipeline create  \
+--pipeline-path=kubeflow_runner.py \
+--endpoint={ENDPOINT} \
+--build-target-image={CUSTOM_TFX_IMAGE}
+```
+
+```bash
+!tfx run create --pipeline-name={PIPELINE_NAME} --endpoint={ENDPOINT}
+```
 
 ## 4. Configure TFX Pipeline for AI Platform Training/Serving
 
-- [ ] Uncomment AI Platform Training
+- [ ] Uncomment AI Platform Training. TFX pipeline will be executed in a pod under Google Kubernetes Engine by default, and this is not an effective way to run training a model. Your model could be big, so you may need distributed training and more powerful GPUs. Also, GKE is not flexible enough to add/remove GPU Node pools dynamically (you could do it, but it take quiet some time). AI Platform Training is the solution for both of these. Please uncommnet the following lines of code in `kubeflow_runner.py`
+
+```python
+ai_platform_training_args=configs.GCP_AI_PLATFORM_TRAINING_ARGS,
+```
 
 - [ ] Configure hardware spec for AI Platform Training
 
 - [ ] Uncomment AI Platform Serving
+
+```python
+ai_platform_serving_args=configs.GCP_AI_PLATFORM_SERVING_ARGS,
+```
 
 ## 5. Send out periodidc newsletters via GitHub Action and AI Platform Serving's end point
 
