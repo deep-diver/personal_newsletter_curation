@@ -99,7 +99,7 @@ kubeflow_dag_runner.KubeflowDagRunner(
 
 ```diff
 - FROM tensorflow/tfx:0.26.0
-+ FROM tensorflow/tfx:0.28.0
++ FROM tensorflow/tfx-gpu:0.28.0
 WORKDIR /pipeline
 COPY ./ ./
 ENV PYTHONPATH="/pipeline:${PYTHONPATH}"
@@ -126,7 +126,31 @@ ENV PYTHONPATH="/pipeline:${PYTHONPATH}"
 ai_platform_training_args=configs.GCP_AI_PLATFORM_TRAINING_ARGS,
 ```
 
-- [ ] Configure hardware spec for AI Platform Training
+- [ ] `configs.GCP_AI_PLATFORM_TRAINING_ARGS` are commented out by default, so we should uncomment it. It is defined in `pipeline/configs.py`
+
+```python
+GCP_AI_PLATFORM_TRAINING_ARGS = {
+    'project': GOOGLE_CLOUD_PROJECT,
+    'region': GOOGLE_CLOUD_REGION,
+    'masterConfig': {
+      'imageUri': 'gcr.io/' + GOOGLE_CLOUD_PROJECT + '/tfx-pipeline'
+    },
+}
+```
+
+- [ ] Configure hardware spec for AI Platform Training. By default setting, AI Platform Training will try to train your model using CPUs only. In order to leverage GPUs, you should specify the hardware specs that you want. It could be defined in the same variable `configs.GCP_AI_PLATFORM_TRAINING_ARGS` with the following contents.
+
+```python
+GCP_AI_PLATFORM_TRAINING_ARGS = {
+    'project': GOOGLE_CLOUD_PROJECT,
+    'region': GOOGLE_CLOUD_REGION,
+    'scaleTier': 'CUSTOM',
+    'masterType': 'large_model_v100',
+    'masterConfig': {
+      'imageUri': 'tensorflow/tfx:0.28.0'
+    },
+}
+```
 
 - [ ] Uncomment AI Platform Serving
 
